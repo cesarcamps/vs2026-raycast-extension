@@ -1,4 +1,4 @@
-name: Build & Release .raycast
+name: Build & Release
 
 on:
   push:
@@ -30,17 +30,17 @@ jobs:
       - name: 🔨 Build extension
         run: npm run build
 
-      - name: 📤 Upload .raycast artifact
+      - name: � Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: visualstudio2026.raycast
-          path: "*.raycast"
+          name: visualstudio2026-build
+          path: dist/
           if-no-files-found: error
 
       - name: 🏷️ Create Release
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
-          files: "*.raycast"
+          files: dist/
           generate_release_notes: true
           fail_on_unmatched_files: true
