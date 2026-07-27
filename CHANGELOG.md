@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Cambios
 - 🔧 `.github/workflows/build-release.yml`: build produce `visualstudio2026.raycast/` (directorio), se empaqueta en `.zip` para release descargable e instalable en Raycast sin fuente
+- 📝 `README.md`: documentación completa de instalación vía GitHub Releases (descargar .zip → extraer → Import Extension)
 
 ## [1.0.0] — 2026-06-18
 
