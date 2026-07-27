@@ -1,0 +1,88 @@
+# Reasonix configuration.
+# Resolution order: flag > ./reasonix.toml > ~/AppData/Roaming/reasonix/config.toml > built-in defaults.
+# Secrets come from the environment via api_key_env; never put keys here.
+
+config_version = 2   # schema marker for diagnostics; old versions may ignore it
+default_model = "deepseek-flash"
+# language      = "zh"   # ui/model language; empty = auto-detect from $LANG / $REASONIX_LANG
+
+[agent]
+# system_prompt = """..."""   # omit to use the built-in prompt for this version
+# system_prompt_file = "prompts/system.md"   # overrides system_prompt when set
+# max_steps         = 0   # executor tool-call rounds; 0 = no limit
+# planner_max_steps = 12   # planner read-only tool-call rounds; 0 = no limit
+temperature       = 0.0
+auto_plan   = "off"   # off|on; off keeps plan mode manual
+# reasoning_language = "zh"   # visible reasoning language: auto|zh|en
+# auto_plan_classifier = "deepseek-flash"   # optional; only used for borderline tasks
+soft_compact_ratio  = 0.5   # notice only; keeps cache-first prefix intact
+compact_ratio       = 0.8   # try compacting when prompt reaches this fraction
+compact_force_ratio = 0.9   # force compacting at this high-water mark
+cold_resume_prune   = true   # elide stale tool results when reopening a session past the provider cache window
+# planner_model = "mimo"   # optional: enable two-model collaboration
+# subagent_model = "deepseek-pro"   # optional default for runAs=subagent skills
+# subagent_models = { review = "deepseek-pro", security_review = "deepseek-pro" }   # per-skill overrides
+# subagent_effort = "high"   # optional default effort for subagents
+# subagent_efforts = { review = "max", task = "high" }   # per-tool/skill effort overrides
+# output_style = "explanatory"   # explanatory | learning | concise | custom; empty = default
+
+[tools]
+enabled = []   # empty = all built-in tools
+bash_timeout_seconds = 120   # foreground safety cap; set 0 for no tool-local cap
+
+[codegraph]
+enabled      = true   # built-in MCP server; off by default for first-run sessions
+auto_install = true   # fetch the runtime when CodeGraph is enabled but missing
+# path       = ""   # empty = cache, then PATH, then a bundle beside reasonix
+
+[builtin_mcp]
+time_enabled = true   # built-in Time MCP; off until manually enabled
+context7_enabled = false   # built-in Context7 MCP; off until manually enabled
+
+[lsp]
+enabled = true   # language server tools; servers launch lazily when used
+# [lsp.servers.go]
+# command = "gopls"
+# args = []
+# extensions = [".go"]
+
+[skills]
+# paths = ["~/my-skills", "../shared/skills"]   # extra custom skill roots
+# excluded_paths = ["~/.agents/skills"]   # hide convention roots without deleting folders
+# max_depth = 3   # nested scan depth; set 1 for legacy root-only discovery
+# disabled_skills = ["review"]   # hide noisy or unwanted skills
+
+[permissions]
+# Per-call gating. mode = writer fallback when no rule matches: ask|allow|deny.
+# Readers always default to allow. Precedence: deny > ask > allow > fallback.
+# Rules are "Tool" or "Tool(specifier)"; e.g. Bash(go test:*), Edit(src/**).
+mode  = "ask"
+# deny = ["Bash(rm -rf*)", "Bash(git push*)"]   # hard-blocked in every mode
+allow = ["Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npm uninstall better-sqlite3 @types/better-sqlite3 && npm install sql.js @types/sql.js 2>&1)", "Edit", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx tsc --noEmit 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx ray lint && npx ray build 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npm uninstall sql.js @types/sql.js 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx tsc --noEmit 2>&1 && npx prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" && npx eslint \"src/**/*.ts\" \"src/**/*.tsx\" && npx ray build 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx ray build 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && node -e \"const pkg = require('./package.json'); console.log('Deps:', JSON.stringify(Object.keys(pkg.dependencies))); console.log('DevDeps:', JSON.stringify(Object.keys(pkg.devDependencies)))\")", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && node -e \"const p = require('path'); const fs = require('fs'); ['package-lock.json','node_modules'].forEach(f => { const s = fs.statSync(f, {throwIfNoEntry: false}); console.log(f, s ? (s.isDirectory() ? 'DIR' : (fs.statSync(f).size + ' bytes')) : 'NOT FOUND') })\")", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && dir /b node_modules\\sql* 2>nul || echo \"No sql* dirs in node_modules\")", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && ls \"node_modules/.package-lock.json\" 2>/dev/null && grep -l \"sql\" \"node_modules/.package-lock.json\" 2>/dev/null || echo \"no cache lock or no match\")", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && grep -c \"sql-wasm\" \"node_modules/.package-lock.json\" 2>/dev/null; grep -c \"sql\" \"node_modules/.package-lock.json\" 2>/dev/null)", "Bash(dir /s /b \"C:\\Temp\\raycast extension\\visualstudio2026\\node_modules\\.cache\" 2>nul || echo \"No .cache dir\")", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx ray build 2>&1 && echo \"--- Build output dirs ---\" && dir /s /b \"C:\\Temp\\raycast extension\\visualstudio2026\\dist\" 2>nul || dir /s /b \"C:\\Temp\\raycast extension\\visualstudio2026\\build\" 2>nul || echo \"Checking output...\" && dir /a:d /b . 2>nul)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx tsc --noEmit 2>&1 && npx prettier --write \"src/**/*.ts\" && npx eslint \"src/**/*.ts\" \"src/**/*.tsx\" && npx ray build 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx tsc --noEmit && npx prettier --write \"src/**/*.ts\" && npx eslint \"src/**/*.ts\" \"src/**/*.tsx\" && npx ray build 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx prettier --write \"src/**/*.ts\" && npx eslint \"src/**/*.ts\" \"src/**/*.tsx\" && npx ray build 2>&1)", "Bash(findstr \"TrackingMRU\":*)", "Bash(findstr /N \"sln\\|FullPath\\|LastAccessed\\|IsFavorite\\|collection name\" \"C:\\Users\\cesar\\AppData\\Local\\Microsoft\\VisualStudio\\18.0_d87eb915\\ApplicationPrivateSettings.xml\" | findstr /I \"sln\\|FullPath\\|LastAccess\\|IsFavorite\\|collection\")", "Bash(findstr /N \"sln\" \"C:\\Users\\cesar\\AppData\\Local\\Microsoft\\VisualStudio\\18.0_d87eb915\\ApplicationPrivateSettings.xml\" 2>&1 | head -5)", "Bash(cd \"C:\\Users\\cesar\\AppData\\Local\\Microsoft\\VisualStudio\\18.0_d87eb915\" && findstr /N /C:\"sln\" ApplicationPrivateSettings.xml 2>&1 | head -5)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && node -e \"\nconst fs = require('fs');\nconst content = fs.readFileSync('C:\\\\Users\\\\cesar\\\\AppData\\\\Local\\\\Microsoft\\\\VisualStudio\\\\18.0_d87eb915\\\\ApplicationPrivateSettings.xml', 'utf8');\n// Find all collection names\nconst collections = content.match(/<collection\\s+name=\\\"([^\\\"]+)\\\"/g);\nif (collections) {\n  console.log('Collections found:');\n  collections.forEach(c => console.log('  ' + c));\n}\n// Search for .sln references\nconst slnCount = (content.match(/\\.sln/g) || []).length;\nconsole.log('\\\\n.sln references: ' + slnCount);\n// Search for FullPath\nconst fpCount = (content.match(/FullPath/g) || []).length;\nconsole.log('FullPath references: ' + fpCount);\n// Search for LastAccessed\nconst laCount = (content.match(/LastAccessed/g) || []).length;\nconsole.log('LastAccessed references: ' + laCount);\n\")", "Bash(node \"C:\\Temp\\raycast extension\\visualstudio2026\\_find-mru.js\" 2>&1)", "Bash(del \"C:\\Temp\\raycast:*)", "Bash(rm \"C:\\Temp\\raycast extension\\visualstudio2026\\_find-mru.js\" 2>/dev/null; echo \"done\")", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx tsc --noEmit && npx prettier --write \"src/**/*.tsx\" && npx eslint \"src/**/*.ts\" \"src/**/*.tsx\" && npx ray build 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && npx tsc --noEmit 2>&1 && npx prettier --write \"src/**/*.tsx\" && npx eslint \"src/**/*.ts\" \"src/**/*.tsx\" && npx ray build 2>&1)", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && node -e \"const ray = require('@raycast/api'); console.log('Document:', typeof ray.Icon.Document); console.log('Code:', typeof ray.Icon.Code); console.log('Folder:', typeof ray.Icon.Folder)\")", "Bash(cd \"C:\\Temp\\raycast extension\\visualstudio2026\" && grep -r \"Document\" \"node_modules/@raycast/api\" --include=\"*.d.ts\" | grep \"Icon\" | head -3)", "Bash(node \"C:\\Temp\\raycast extension\\visualstudio2026\\_find-cols.js\" 2>&1)", "Bash(rm \"C:\\Temp\\raycast extension\\visualstudio2026\\_find-cols.js\" 2>/dev/null; echo \"clean\")"]
+# ask = ["Edit(src/**)"]   # force a prompt even if otherwise allowed
+
+[sandbox]
+# Confine tool blast radius. File-writers (write_file/edit_file/multi_edit/move_file)
+# may only write under workspace_root (empty = current dir) + allow_write.
+# bash = "enforce" (default) jails each command in an OS sandbox (macOS now;
+# graceful fallback elsewhere); "off" disables it. network allows egress.
+# workspace_root = ""            # default: current working directory
+# allow_write = ["/tmp"]          # extra dirs writers may also modify
+bash    = "enforce"
+network = true
+
+[statusline]
+# A custom status line: a command whose first stdout line replaces the built-in
+# data row. It receives {"model","contextUsed","contextWindow","cwd"} as JSON on stdin.
+# command = "my-statusline.sh"
+
+# External MCP servers. type: "stdio" (default, a subprocess) | "http" | "sse".
+# ${VAR} / ${VAR:-default} are expanded from the environment in command/args/env/url/headers.
+# [[plugins]]
+# name    = "example"
+# command = "reasonix-plugin-example"
+# [[plugins]]                                  # a remote server over Streamable HTTP
+# name    = "stripe"
+# type    = "http"
+# url     = "https://mcp.stripe.com"
+# headers = { Authorization = "Bearer ${STRIPE_KEY}" }
