@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.1] — 27 Jul 2026
 
 ### Cambios
-- 🔧 `.github/workflows/build-release.yml`: corregido path del artifact — `ray build` no genera `*.raycast`, sube `dist/` en su lugar
+- 🔧 `.github/workflows/build-release.yml`: build produce `visualstudio2026.raycast/` (directorio), se empaqueta en `.zip` para release descargable e instalable en Raycast sin fuente
 
 ## [1.0.0] — 2026-06-18
 

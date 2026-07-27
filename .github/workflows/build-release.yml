@@ -28,19 +28,23 @@ jobs:
         run: npm ci
 
       - name: 🔨 Build extension
-        run: npm run build
+        run: npx ray build --output visualstudio2026.raycast --environment dist --non-interactive
 
-      - name: � Upload build artifact
+      - name: 📦 Package .raycast
+        shell: pwsh
+        run: Compress-Archive -Path visualstudio2026.raycast/* -DestinationPath visualstudio2026.raycast.zip
+
+      - name: ⬆ Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: visualstudio2026-build
-          path: dist/
+          name: visualstudio2026.raycast
+          path: visualstudio2026.raycast.zip
           if-no-files-found: error
 
       - name: 🏷️ Create Release
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/
+          files: visualstudio2026.raycast.zip
           generate_release_notes: true
           fail_on_unmatched_files: true

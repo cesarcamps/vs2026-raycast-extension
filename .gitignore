@@ -5,6 +5,7 @@
 
 # build output
 /dist
+*.raycast/
 
 # Raycast specific files
 raycast-env.d.ts
