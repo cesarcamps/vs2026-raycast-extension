@@ -9,11 +9,14 @@ import {
   Clipboard,
   useNavigation,
   open,
+  confirmAlert,
 } from "@raycast/api";
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { exec } from "child_process";
 import { promisify } from "util";
 import { existsSync } from "fs";
+import { homedir } from "os";
+import { join } from "path";
 import { VsProject } from "./types";
 import * as db from "./db/database";
 
@@ -257,6 +260,106 @@ function TagEditor({ proj, onSave }: { proj: VsProject; onSave: () => void }) {
   );
 }
 
+// ─── data backup helpers ───────────────────────────────────
+
+const BACKUP_FILE = "vs2026-projects-backup.json";
+
+async function exportData() {
+  try {
+    const target = join(homedir(), "Documents", BACKUP_FILE);
+    const count = db.exportStore(target);
+    await showToast({
+      style: Toast.Style.Success,
+      title: `Exported ${count} projects`,
+      message: target,
+    });
+  } catch (e) {
+    await showToast({
+      style: Toast.Style.Failure,
+      title: "Export failed",
+      message: String(e),
+    });
+  }
+}
+
+// ─── Import component ──────────────────────────────────────
+
+function ImportForm({ onDone }: { onDone: () => void }) {
+  const { pop } = useNavigation();
+  const [path, setPath] = useState("");
+
+  async function handleImport() {
+    const trimmed = path.trim();
+    if (!trimmed) {
+      await showToast({
+        style: Toast.Style.Failure,
+        title: "Enter a file path",
+      });
+      return;
+    }
+    if (!existsSync(trimmed)) {
+      await showToast({
+        style: Toast.Style.Failure,
+        title: "File not found",
+        message: trimmed,
+      });
+      return;
+    }
+    const current = db.getAllProjects().length;
+    if (current > 0) {
+      const ok = await confirmAlert({
+        title: "Replace current data?",
+        message: `The store has ${current} projects. Importing will replace them.`,
+        primaryAction: { title: "Import & Replace" },
+        dismissAction: { title: "Cancel" },
+      });
+      if (!ok) return;
+    }
+    try {
+      const count = db.importStore(trimmed);
+      onDone();
+      await showToast({
+        style: Toast.Style.Success,
+        title: `Imported ${count} projects`,
+        message: trimmed,
+      });
+      pop();
+    } catch (e) {
+      await showToast({
+        style: Toast.Style.Failure,
+        title: "Import failed",
+        message: String(e),
+      });
+    }
+  }
+
+  return (
+    <Form
+      actions={
+        <ActionPanel>
+          <Action.SubmitForm
+            icon={Icon.Upload}
+            title="Import Backup"
+            onSubmit={handleImport}
+          />
+        </ActionPanel>
+      }
+    >
+      <Form.Description
+        title="Import backup"
+        text="Select the backup .json file to restore pins, tags and history."
+      />
+      <Form.TextField
+        id="backupPath"
+        title="Backup file path"
+        placeholder={`C:\\Users\\you\\Documents\\${BACKUP_FILE}`}
+        value={path}
+        onChange={setPath}
+      />
+    </Form>
+  );
+}
+
 // ─── main component ────────────────────────────────────────
 
 export default function Command() {
@@ -300,6 +403,27 @@ export default function Command() {
     const list = db.getAllProjects();
     setProjects(list);
   }, []);
+
+  const doRefresh = useCallback(async () => {
+    try {
+      const { imported, updated } = await db.refreshFromSources();
+      refreshList();
+      await showToast({
+        style: Toast.Style.Success,
+        title: imported > 0 || updated > 0 ? "Refresh done" : "Up to date",
+        message:
+          imported > 0 || updated > 0
+            ? `${imported} new, ${updated} updated`
+            : "No changes from VS",
+      });
+    } catch (e) {
+      await showToast({
+        style: Toast.Style.Failure,
+        title: "Refresh failed",
+        message: String(e),
+      });
+    }
+  }, [refreshList]);
 
   useEffect(() => {
     if (needsRefresh > 0) refreshList();
@@ -449,6 +573,30 @@ export default function Command() {
                       onAction={() => setSearchText("used:last7days")}
                     />
                   </ActionPanel.Section>
+
+                  <ActionPanel.Section title="Data">
+                    <Action
+                      icon={Icon.ArrowClockwise}
+                      title="Refresh from Disk"
+                      shortcut={{ modifiers: ["ctrl", "shift"], key: "r" }}
+                      onAction={doRefresh}
+                    />
+                    <Action
+                      icon={Icon.Download}
+                      title="Export Data"
+                      shortcut={{ modifiers: ["ctrl", "shift"], key: "e" }}
+                      onAction={exportData}
+                    />
+                    <Action.Push
+                      icon={Icon.Upload}
+                      title="Import Data"
+                      target={
+                        <ImportForm
+                          onDone={() => setNeedsRefresh((n) => n + 1)}
+                        />
+                      }
+                    />
+                  </ActionPanel.Section>
                 </ActionPanel>
               }
             />
@@ -461,6 +609,22 @@ export default function Command() {
           icon={Icon.Folder}
           title="No projects found"
           description="Open Visual Studio 2026 and work on some projects first, or check the search filters."
+          actions={
+            <ActionPanel>
+              <Action
+                icon={Icon.ArrowClockwise}
+                title="Refresh from Disk"
+                onAction={doRefresh}
+              />
+              <Action.Push
+                icon={Icon.Upload}
+                title="Import Data"
+                target={
+                  <ImportForm onDone={() => setNeedsRefresh((n) => n + 1)} />
+                }
+              />
+            </ActionPanel>
+          }
         />
       )}
     </List>

@@ -1,6 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "visualstudio2026",
+  "version": "1.0.2",
   "description": "Historial inteligente de proyectos VS2026 con SQLite: MRU, pinned, tags, ranking híbrido y búsqueda fuzzy",
   "license": "MIT",
   "scripts": {

@@ -90,27 +90,38 @@ export async function initDb(): Promise<void> {
 
 let _lastImportResult: { imported: number; updated: number } | null = null;
 let _lastImportTime = 0;
-let _pendingImport: Promise<{ imported: number; updated: number }> | null = null;
+let _pendingImport: Promise<{ imported: number; updated: number }> | null =
+  null;
 
 const IMPORT_CACHE_TTL_MS = 10_000; // 10 segundos
 
-export async function importFromSources(): Promise<{ imported: number; updated: number }> {
+export async function importFromSources(options?: {
+  force?: boolean;
+}): Promise<{ imported: number; updated: number }> {
   if (!_data) throw new Error("Store not initialized");
 
+  const force = options?.force === true;
   const now = Date.now();
 
   // Cache en memoria: si ya importamos hace menos de 10s, reusar resultado
-  if (_lastImportResult && now - _lastImportTime < IMPORT_CACHE_TTL_MS) {
+  if (
+    !force &&
+    _lastImportResult &&
+    now - _lastImportTime < IMPORT_CACHE_TTL_MS
+  ) {
     return _lastImportResult;
   }
 
   // Si ya hay una importación en curso, reusar su promesa
   if (_pendingImport) return _pendingImport;
 
-  _pendingImport = (async (): Promise<{ imported: number; updated: number }> => {
+  _pendingImport = (async (): Promise<{
+    imported: number;
+    updated: number;
+  }> => {
     try {
       // Cache de disco: si XML no cambiaron, saltar lectura completa
-      if (areSourcesUnchanged()) {
+      if (!force && areSourcesUnchanged()) {
         _lastImportResult = { imported: 0, updated: 0 };
         _lastImportTime = Date.now();
         return _lastImportResult;
@@ -168,6 +179,14 @@ export async function importFromSources(): Promise<{ imported: number; updated: 
   })();
 
   return _pendingImport;
+}
+
+/** Re-importa desde VS ignorando las caches (TTL en memoria y mtimes de XML). */
+export async function refreshFromSources(): Promise<{
+  imported: number;
+  updated: number;
+}> {
+  return importFromSources({ force: true });
 }
 
 function computeScore(p: StoredProject): number {
@@ -284,6 +303,53 @@ export function closeDb(): void {
   _data = null;
   _ready = false;
   _initPromise = null;
+}
+
+/** Escribe el store completo en la ruta indicada. Devuelve nº de proyectos. */
+export function exportStore(targetPath: string): number {
+  if (!_data) throw new Error("Store not initialized");
+  if (_dirty) saveStore();
+  writeFileSync(targetPath, JSON.stringify(_data, null, 2), "utf-8");
+  return _data.projects.length;
+}
+
+function isValidStoredProject(p: unknown): p is StoredProject {
+  if (!p || typeof p !== "object") return false;
+  const s = p as Record<string, unknown>;
+  return (
+    typeof s.id === "string" &&
+    typeof s.name === "string" &&
+    typeof s.path === "string" &&
+    (s.type === "sln" || s.type === "folder") &&
+    typeof s.lastOpened === "string" &&
+    typeof s.openCount === "number" &&
+    typeof s.pinned === "boolean" &&
+    Array.isArray(s.tags)
+  );
+}
+
+/**
+ * Reemplaza el store actual con el contenido del backup indicado.
+ * Devuelve el nº de proyectos importados. Lanza error si el archivo es inválido.
+ */
+export function importStore(sourcePath: string): number {
+  const raw = readFileSync(sourcePath, "utf-8");
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(raw);
+  } catch {
+    throw new Error("El archivo no es un JSON válido");
+  }
+  const store = parsed as Partial<StoreData>;
+  if (!store || !Array.isArray(store.projects)) {
+    throw new Error(
+      "El archivo no contiene un store válido (falta 'projects')",
+    );
+  }
+  const projects = store.projects.filter(isValidStoredProject);
+  _data = { version: STORE_VERSION, projects };
+  saveStore();
+  return projects.length;
 }
 
 // ─── helpers ───────────────────────────────────────────────

@@ -46,19 +46,19 @@ Esto abre la extensión en modo desarrollo con hot-reload.
 
 ### Atajos y comandos
 
-| Acción | Descripción |
-|--------|-------------|
-| `Enter` | Abre el proyecto con el editor asociado (`.sln`) |
-| `⌘+P` / `Ctrl+P` | Fijar / desfijar proyecto (pinned) |
-| `⌘+T` / `Ctrl+T` | Editar tags del proyecto |
-| `⌘+⇧+F` / `Ctrl+Shift+F` | Filtrar por rango de fechas (`used:last7days`) |
-| Escribir `tag:net8` | Filtrar proyectos por tag |
+| Acción                   | Descripción                                      |
+| ------------------------ | ------------------------------------------------ |
+| `Enter`                  | Abre el proyecto con el editor asociado (`.sln`) |
+| `⌘+P` / `Ctrl+P`         | Fijar / desfijar proyecto (pinned)               |
+| `⌘+T` / `Ctrl+T`         | Editar tags del proyecto                         |
+| `⌘+⇧+F` / `Ctrl+Shift+F` | Filtrar por rango de fechas (`used:last7days`)   |
+| Escribir `tag:net8`      | Filtrar proyectos por tag                        |
 
 ### Filtros de búsqueda
 
-| Filtro | Ejemplo |
-|--------|---------|
-| `tag:<nombre>` | `tag:net8 tag:web` |
+| Filtro         | Ejemplo                                                             |
+| -------------- | ------------------------------------------------------------------- |
+| `tag:<nombre>` | `tag:net8 tag:web`                                                  |
 | `used:<rango>` | `used:today`, `used:last7days`, `used:last30days`, `used:thisMonth` |
 
 ---

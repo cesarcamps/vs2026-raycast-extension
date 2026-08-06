@@ -265,9 +265,27 @@ function scanDirForSln(
   }
 }
 
+/** Rutas extra configuradas por el usuario en Preferencias (separadas por ;) */
+function getCustomScanPaths(): string[] {
+  const out: string[] = [];
+  try {
+    const { customVSPaths } = getPreferenceValues<{ customVSPaths: string }>();
+    if (customVSPaths && customVSPaths.trim()) {
+      for (const raw of customVSPaths.split(";")) {
+        const p = raw.trim();
+        if (p && !out.includes(p)) out.push(p);
+      }
+    }
+  } catch {
+    // getPreferenceValues puede fallar en desarrollo
+  }
+  return out;
+}
+
 function scanUserDevFolders(): string[] {
   const paths: string[] = [];
   const scanDirs = [
+    ...getCustomScanPaths(),
     join(homedir(), "source", "repos"),
     join(homedir(), "source"),
     join(homedir(), "projects"),
@@ -302,9 +320,9 @@ function pathToProject(filePath: string): VsProject | null {
 
     const name = isSln
       ? (normalized
-          .split("/")
-          .pop()
-          ?.replace(/\.sln$/i, "") ?? "Unknown")
+        .split("/")
+        .pop()
+        ?.replace(/\.sln$/i, "") ?? "Unknown")
       : (normalized.split("/").pop() ?? "Unknown");
 
     let lastOpened: string;

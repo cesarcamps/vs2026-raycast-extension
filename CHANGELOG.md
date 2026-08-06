@@ -7,9 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.2] — 06 Aug 2026
+
+### Cambios
+
+- 🆕 `src/sources/vs-registry.ts`: pref `customVSPaths` cableado en `scanUserDevFolders()` — rutas extra separadas por `;` para escanear `.sln` fuera de las carpetas por defecto (p. ej. `E:\Works\Gonzalo`)
+- 🆕 `src/db/database.ts`: `refreshFromSources()` fuerza re-import ignorando caches (TTL memoria + mtimes XML); `exportStore()` / `importStore()` para respaldo y restauración del store (pins, tags, historial)
+- 🆕 `src/search-vs2026-projects.tsx`: acciones "Refresh from Disk", "Export Data" e "Import Data" (con confirmación al reemplazar) + acciones disponibles en el estado vacío
+- 🔧 `package.json`: campo `version` añadido (1.0.2)
+
 ## [1.0.1] — 27 Jul 2026
 
 ### Cambios
+
 - 🔧 `.github/workflows/build-release.yml`: build produce `visualstudio2026.raycast/` (directorio), se empaqueta en `.zip` para release descargable e instalable en Raycast sin fuente
 - 📝 `README.md`: documentación completa de instalación vía GitHub Releases (descargar .zip → extraer → Import Extension)
 
