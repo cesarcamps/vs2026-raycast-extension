@@ -1,0 +1,4642 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "5a7c5b4c-638f-4d3f-844d-d1e86e12572c",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\Web\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2026-08-05T17:17:12.097Z",
+      "openCount": 111,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "43db7a33-a177-42d3-93d6-ba79192c364c",
+      "name": "DataAccessLayer",
+      "path": "E:\\Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayer.sln",
+      "type": "sln",
+      "lastOpened": "2026-05-20T15:52:11.543Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f12ecde4-fc04-42a1-90d0-326608b0b7b3",
+      "name": "MassiveBiceOPTester_StandAlone",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveBiceOPTester\\MassiveBiceOPTester_StandAlone.sln",
+      "type": "sln",
+      "lastOpened": "2026-06-02T14:37:16.770Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f4247c48-7c50-4453-bb19-0b9a69de2e23",
+      "name": "PandoraIdentity",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\WebApp\\PandoraIdentity.sln",
+      "type": "sln",
+      "lastOpened": "2026-08-04T16:56:08.849Z",
+      "openCount": 106,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6c313013-c775-428e-8054-0af8ff0d3698",
+      "name": "H2SchedulerServiceWeb_V2",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2SchedulerServiceWeb-V2\\H2SchedulerServiceWeb_V2.slnx",
+      "type": "folder",
+      "lastOpened": "2026-08-03T11:14:33.859Z",
+      "openCount": 107,
+      "pinned": false,
+      "tags": [
+        "planificador",
+        "carga masiva"
+      ]
+    },
+    {
+      "id": "7d45479c-c043-4e55-8bb9-4b7758d62a25",
+      "name": "IntegrationServicesRoster",
+      "path": "E:\\Works\\Gonzalo\\IntegrationServicesRoster\\IntegrationServicesRoster.sln",
+      "type": "sln",
+      "lastOpened": "2026-07-16T08:43:00.718Z",
+      "openCount": 107,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8a80d88a-dbaf-4217-abaf-37cbe16d28cf",
+      "name": "clientSearchWebSolution",
+      "path": "E:\\Works\\Gonzalo\\ClientSearchWeb\\clientSearchWebSolution.sln",
+      "type": "sln",
+      "lastOpened": "2025-11-06T12:41:30.397Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "858e7591-425f-413f-bfac-b60f361f9439",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\CustomPP\\CRM1\\NewPP - VSCode\\NewPP\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2026-07-13T13:22:58.413Z",
+      "openCount": 106,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b1bd2d8e-e2d3-41c5-a661-b45c634977e4",
+      "name": "RuleRunnerTester",
+      "path": "E:\\Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\RuleRunnerTester.sln",
+      "type": "sln",
+      "lastOpened": "2026-07-22T21:07:44.121Z",
+      "openCount": 109,
+      "pinned": false,
+      "tags": [
+        "reglas"
+      ]
+    },
+    {
+      "id": "48b131b0-33e5-4eb7-a8fd-e80a386ffcb7",
+      "name": "crm_ejecutivo_flutter_ws",
+      "path": "E:\\Works\\Gonzalo\\Flutter_Projects\\current\\crm_ejecutivo_2023\\crm_ejecutivo_flutter_ws\\crm_ejecutivo_flutter_ws.sln",
+      "type": "sln",
+      "lastOpened": "2026-08-03T13:06:31.540Z",
+      "openCount": 110,
+      "pinned": false,
+      "tags": [
+        "flutter"
+      ]
+    },
+    {
+      "id": "74924f0c-5410-4a6c-aeec-852eb63e96bb",
+      "name": "AstaraToH2Test_6",
+      "path": "E:\\Works\\Gonzalo\\Miguel Bascunnan\\AstaraToH2Test 1 julio 2025\\AstaraToH2Test_6.sln",
+      "type": "sln",
+      "lastOpened": "2025-10-28T17:29:05.876Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "86b9e675-0003-4e5c-8918-7ff658124066",
+      "name": "AUTOKAS_FuncionesBD",
+      "path": "E:\\Works\\Gonzalo\\Miguel Bascunnan\\AstaraToH2Test 1 julio 2025\\lololo\\AUTOKAS_FuncionesBD\\AUTOKAS_FuncionesBD.csproj",
+      "type": "sln",
+      "lastOpened": "2025-10-28T17:28:13.900Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b72c25e0-f596-4f98-8820-aff314bc137a",
+      "name": "DocumentosDinamicos",
+      "path": "E:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocumentosDinamicos.sln",
+      "type": "sln",
+      "lastOpened": "2026-07-31T17:08:32.413Z",
+      "openCount": 107,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "87ff224f-6132-4eb6-be8b-4c81747387fa",
+      "name": "InboxAdapterModule",
+      "path": "E:\\Works\\Gonzalo\\InboxAdapter\\InboxAdapterModule\\InboxAdapterModule.sln",
+      "type": "sln",
+      "lastOpened": "2026-07-16T08:43:30.458Z",
+      "openCount": 113,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "153f991d-85f2-4d9b-9960-e6b947f384d3",
+      "name": "CreateTicketFromGmailCore_Pandora",
+      "path": "E:\\Works\\Gonzalo\\entregas Paris\\CreateTicketFromGmailCore_Pandora\\CreateTicketFromGmailCore_Pandora.sln",
+      "type": "sln",
+      "lastOpened": "2026-03-23T18:52:35.156Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7e02c747-495d-4836-aafa-cd8383deb839",
+      "name": "IACommunicationsSupportLibrary",
+      "path": "E:\\Works\\Gonzalo\\InboxAdapter\\IACommunicationsSupportLibrary\\IACommunicationsSupportLibrary.csproj",
+      "type": "sln",
+      "lastOpened": "2025-10-14T22:08:05.171Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b270d4f0-b222-4d79-82a6-f87c5699c483",
+      "name": "ClientSearchLibrary_MT",
+      "path": "E:\\Works\\Gonzalo\\ClientSearchLibrary_MT\\ClientSearchLibrary_MT.csproj",
+      "type": "sln",
+      "lastOpened": "2025-10-14T20:45:29.055Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "884f8d10-f1cc-4c5e-890a-61f83907c80d",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Listados\\GeneradorListados\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2026-07-24T12:20:53.683Z",
+      "openCount": 111,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4fbb3fe6-8ea7-4ef9-9824-a34274e10e05",
+      "name": "IntegrationServicesRosterLibrary",
+      "path": "E:\\Works\\Gonzalo\\IntegrationServicesRoster\\IntegrationServicesRosterLibrary\\IntegrationServicesRosterLibrary.csproj",
+      "type": "sln",
+      "lastOpened": "2025-10-13T12:50:34.068Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "78772e4c-8cd1-4b56-af13-d0e659977d09",
+      "name": "new_crypt_cl_2018_multitarget",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\NewCrypt\\new_crypt_2018\\new_crypt_cl_2018_multitarget\\new_crypt_cl_2018_multitarget.csproj",
+      "type": "sln",
+      "lastOpened": "2026-03-25T18:39:02.707Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d6111ecb-ae30-4b33-a3b1-e03e688ab11c",
+      "name": "TokensProcessingCore",
+      "path": "E:\\Works\\Gonzalo\\TokensProcessingCore\\TokensProcessingCore\\TokensProcessingCore.csproj",
+      "type": "sln",
+      "lastOpened": "2026-03-31T13:48:07.783Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "df18e330-2ce3-4e04-9be9-7f6b4b0b1484",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Documentos Dinamicos\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2026-06-30T11:11:59.890Z",
+      "openCount": 106,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "540e1c78-ffa2-4ea2-9b26-1770027ec424",
+      "name": "AspireApp1",
+      "path": "C:\\Users\\cesar\\source\\repos\\AspireApp1\\AspireApp1.slnx",
+      "type": "folder",
+      "lastOpened": "2025-09-23T15:53:53.026Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0beadf5b-1e3b-4645-8a87-ff21a3696a20",
+      "name": "AspireApp1",
+      "path": "C:\\Users\\cesar\\source\\repos\\AspireApp1\\AspireApp1.sln",
+      "type": "sln",
+      "lastOpened": "2025-09-23T15:53:38.445Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "505a54df-5974-4cf6-91b2-c7b51a56d660",
+      "name": "MailMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\SendEmailCLMultiTarget\\MailMultiTarget.sln",
+      "type": "sln",
+      "lastOpened": "2026-05-25T16:14:18.542Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0d6e1e38-49f6-4f4b-b514-34f887255a2d",
+      "name": "ws.sln (2)",
+      "path": "E:\\Works\\Gonzalo\\CargaMasiva\\Carga Masiva Current\\ws\\ws.sln (2).sln",
+      "type": "sln",
+      "lastOpened": "2026-07-14T16:57:40.092Z",
+      "openCount": 107,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a7fcf233-05af-421a-8b5c-7800ce74c9b2",
+      "name": "H2SchedulerService",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2SchedulerService\\H2SchedulerService.sln",
+      "type": "sln",
+      "lastOpened": "2026-06-09T16:27:20.098Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "928a2b87-038c-4ea3-9b95-401b4b9e7afe",
+      "name": "DataAccessLayerMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerMultiTarget\\DataAccessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-24T11:07:37.416Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4f8d6f9e-ea4e-4dab-8c05-6e2b634431c9",
+      "name": "DataAccessLayerCoreMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerCoreMultiTarget\\DataAccessLayerCoreMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-24T11:07:24.037Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1059c9a5-f4d7-48c8-92f3-6a356efd4579",
+      "name": "ConsoleApp1",
+      "path": "E:\\Works\\Gonzalo\\DataAccessLayerH2\\ConsoleApp1\\ConsoleApp1.csproj",
+      "type": "sln",
+      "lastOpened": "2025-08-26T11:46:48.294Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8d8259f2-d97e-49a4-9e6b-2e7ffb6af2e9",
+      "name": "PandoraIdentityClasico_Enhanced",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\WebApp\\PandoraIdentityClasico_Enhanced\\PandoraIdentityClasico_Enhanced.csproj",
+      "type": "sln",
+      "lastOpened": "2025-08-22T17:35:41.659Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "dc549540-682d-4eb2-887c-0a0ab5f7414d",
+      "name": "SIGM_SD.WS2",
+      "path": "E:\\Works\\Gonzalo\\CustomPP\\WS CRM1\\SIGM_SD.WS2.sln",
+      "type": "sln",
+      "lastOpened": "2023-05-05T11:57:42.935Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8ca8a8a0-b916-4da7-bea4-edbc7687ba62",
+      "name": "IntegrationServicesRoster",
+      "path": "E:\\Works\\Gonzalo\\IntegrationServicesRoster",
+      "type": "folder",
+      "lastOpened": "2025-08-21T12:22:34.125Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f69c820d-2eca-4634-b2a6-9985cdf79de8",
+      "name": "RenderChartToolsMT",
+      "path": "E:\\Works\\Gonzalo\\RenderChartToolsMultiTarget\\RenderChartToolsMT\\RenderChartToolsMT.csproj",
+      "type": "sln",
+      "lastOpened": "2025-08-15T12:30:05.271Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4d30ea0d-f265-4303-baa4-e43aafd9df88",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\EscalamientoConfig\\ws",
+      "type": "folder",
+      "lastOpened": "2025-07-25T14:53:47.007Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b6b47a2e-782b-47b9-ab13-2790612138ae",
+      "name": "MassiveChargeFEN",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeFEN\\MassiveChargeFEN.sln",
+      "type": "sln",
+      "lastOpened": "2023-02-08T14:32:51.300Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "59ea613e-8f2d-4d85-a542-abf48799c008",
+      "name": "ws",
+      "path": "C:\\Users\\cesar\\source\\repos\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2025-07-24T16:31:17.989Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1e1e5456-ec1e-432c-9c8b-4de43cbd73d6",
+      "name": "Sol_IntegracionConversica",
+      "path": "E:\\Works\\Gonzalo\\Miguel Bascunnan\\AstaraToH2Test 1 julio 2025\\Integraciones_Proveedores\\Integraciones_Proveedores\\Sol_IntegracionConversica.sln",
+      "type": "sln",
+      "lastOpened": "2026-01-13T15:15:16.998Z",
+      "openCount": 79,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "257bd046-cc04-4ad5-a707-e8cc2c7879b9",
+      "name": "ConsoleApp2",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp2\\ConsoleApp2.sln",
+      "type": "sln",
+      "lastOpened": "2025-07-21T18:42:51.194Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cc547092-3435-4e80-8a41-270de1296af7",
+      "name": "ConsoleApp1",
+      "path": "E:\\Works\\Gonzalo\\ConsoleApp1\\ConsoleApp1.sln",
+      "type": "sln",
+      "lastOpened": "2025-07-21T18:41:01.367Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "10515d64-7788-41c3-8f52-bb44089be45f",
+      "name": "sql_generator_2018_multitarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\sql_generator_2018\\sql_generator_2018_multitarget\\sql_generator_2018_multitarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-07-13T19:22:01.098Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "41aa8cbe-deb5-4617-abba-303ac4040b15",
+      "name": "ConsoleApp1",
+      "path": "c:\\temp\\scrapper\\ConsoleApp1\\ConsoleApp1.sln",
+      "type": "sln",
+      "lastOpened": "2025-07-21T18:07:28.616Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d4f6765e-a904-4684-ae60-9b05580c859a",
+      "name": "GetSQLFinalListadoLibrary",
+      "path": "E:\\Works\\Gonzalo\\GetSQLFinalListadoLibrary\\GetSQLFinalListadoLibrary\\GetSQLFinalListadoLibrary.sln",
+      "type": "sln",
+      "lastOpened": "2025-07-21T18:07:03.504Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1716a173-60cf-4815-90e4-5cdef13476bd",
+      "name": "ConsoleApp2",
+      "path": "C:\\Temp\\scrapper\\ConsoleApp2\\ConsoleApp2.sln",
+      "type": "sln",
+      "lastOpened": "2025-07-21T17:28:49.757Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "abcdea59-9a3b-4d5f-956b-577150831d70",
+      "name": "AstaraToH2Test_6",
+      "path": "E:\\Works\\Gonzalo\\Miguel Bascunnan\\AstaraToH2Test 1 julio 2025\\AstaraToH2Test_6\\AstaraToH2Test_6.csproj",
+      "type": "sln",
+      "lastOpened": "2025-07-18T14:26:10.390Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e2feb99f-45b7-4ca1-96f3-d6539753aa4c",
+      "name": "AUTOKAS_FuncionesBD",
+      "path": "E:\\Works\\Gonzalo\\Miguel Bascunnan\\AstaraToH2Test 1 julio 2025\\AUTOKAS_FuncionesBD\\AUTOKAS_FuncionesBD.csproj",
+      "type": "sln",
+      "lastOpened": "2025-07-10T19:38:52.137Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "14568da8-cd41-4a5b-995c-6b77335509ec",
+      "name": "AstaraToH2Test",
+      "path": "E:\\Works\\Gonzalo\\Miguel Bascunnan\\AstaraToH2Test 1 julio 2025\\AstaraToH2Test\\AstaraToH2Test.sln",
+      "type": "sln",
+      "lastOpened": "2026-01-13T15:13:40.285Z",
+      "openCount": 79,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "efaca725-46e4-4402-be84-48d2d8fc1bf4",
+      "name": "IH2SchedulerModule",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\V2\\IH2SchedulerModule\\IH2SchedulerModule.csproj",
+      "type": "sln",
+      "lastOpened": "2025-07-04T12:08:41.628Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f32602d2-07ef-4927-81a5-eed58bfd8aeb",
+      "name": "CronHelpers",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\CronHelpers\\CronHelpers.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-19T11:39:00.653Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cbcb8bab-d35f-45da-a526-231768e06811",
+      "name": "new_crypt_2018",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\NewCrypt\\new_crypt_2018\\new_crypt_2018.sln",
+      "type": "sln",
+      "lastOpened": "2026-06-19T18:10:13.126Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a2d1dd97-0436-404b-9fcb-a817135d49bc",
+      "name": "ExportExcelBusinessLayerMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\ExportExcelBusinessLayerMultiTarget\\ExportExcelBusinessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2025-07-02T18:39:01.085Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "75fb1afb-91a9-4ca1-ac6e-df2cb0e24828",
+      "name": "sql_generator_listados",
+      "path": "E:\\Works\\Gonzalo\\Listados\\sql_generator_listados\\sql_generator_listados.csproj",
+      "type": "sln",
+      "lastOpened": "2025-06-26T09:25:23.905Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d9ef34d2-f162-47fb-aedc-b7559bd428df",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Reglas Unificadas\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2026-07-31T09:07:32.098Z",
+      "openCount": 110,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c1df42da-2a99-4876-a7e7-58b95c7af85f",
+      "name": "CPUBoostManager",
+      "path": "e:\\works\\gonzalo\\CPUBoostManager\\CPUBoostManager.sln",
+      "type": "sln",
+      "lastOpened": "2025-06-20T23:32:56.081Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9712db5d-77ef-416f-8274-dc73da180a8a",
+      "name": "DocumentosDinamicos",
+      "path": "E:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocumentosDinamicos\\DocumentosDinamicos.csproj",
+      "type": "sln",
+      "lastOpened": "2025-06-03T17:08:16.434Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "35480b4e-a15e-4239-9815-4bdd91f7ddfa",
+      "name": "NotificationDaemonModule",
+      "path": "E:\\Works\\Gonzalo\\NotificationsEngineBuilder\\AppConsole\\NotificationDaemonModule\\NotificationDaemonModule.sln",
+      "type": "sln",
+      "lastOpened": "2026-01-09T16:48:16.659Z",
+      "openCount": 77,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b32546da-1282-4d8d-b2fe-fcf12f540a01",
+      "name": "RuleRunnerCLMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\RuleRunnerCLMultiTarget\\RuleRunnerCLMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-19T11:39:55.802Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "81d1866f-9d4d-4f8a-8116-b30c60613766",
+      "name": "sql_generator_2018_multitarget",
+      "path": "E:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\sql_generator_2018\\sql_generator_2018_multitarget\\sql_generator_2018_multitarget.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-19T11:39:24.654Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "043f2e41-ed21-49c5-94bb-8363c096ea3c",
+      "name": "DBTools",
+      "path": "E:\\Works\\Gonzalo\\DBTools\\DBTools\\DBTools.sln",
+      "type": "sln",
+      "lastOpened": "2024-12-16T09:36:39.886Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "14d80888-f0af-4768-b9c7-84862d2aa4b5",
+      "name": "DynamicProcessingMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\DynamicProcessingMultiTarget\\DynamicProcessingMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-23T13:37:17.443Z",
+      "openCount": 106,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fdba789a-71a2-403e-8ade-db67067996d3",
+      "name": "CustomRulesDaemonModuleV2",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\App\\CustomRulesDaemonModuleV2\\CustomRulesDaemonModuleV2.csproj",
+      "type": "sln",
+      "lastOpened": "2025-04-10T13:43:28.372Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c7a20273-3db0-4291-8fa1-41fddd53a20c",
+      "name": "CustomRulesDaemonModule",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\App\\CustomRulesDaemonModule\\CustomRulesDaemonModule.csproj",
+      "type": "sln",
+      "lastOpened": "2025-04-10T13:39:27.742Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8449afda-2adf-43c2-bc1c-276c840630c1",
+      "name": "CustomRulesDaemon",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\App\\CustomRulesDaemon\\CustomRulesDaemon.csproj",
+      "type": "sln",
+      "lastOpened": "2025-04-10T13:39:18.933Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "16489053-b37d-4c6b-9836-8c9192aadb34",
+      "name": "CustomRulesDaemonV2",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\App\\CustomRulesDaemonV2.sln",
+      "type": "sln",
+      "lastOpened": "2026-07-06T13:27:39.946Z",
+      "openCount": 109,
+      "pinned": false,
+      "tags": [
+        "net10"
+      ]
+    },
+    {
+      "id": "b8b6b324-b206-41eb-a90b-0857b8d1ca51",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\NotificationsEngineBuilder\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2025-04-09T12:23:29.076Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "32224a72-2d12-42c7-b415-403cb70a263c",
+      "name": "FacturasDaemonModule",
+      "path": "E:\\Works\\Gonzalo\\FacturasEngineBuilder\\AppConsole\\FacturasDaemonModule\\FacturasDaemonModule.csproj",
+      "type": "sln",
+      "lastOpened": "2025-04-03T10:46:22.727Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5ce2975b-c10e-405d-b840-abe0f4e085ee",
+      "name": "FacturasDaemon",
+      "path": "E:\\Works\\Gonzalo\\FacturasEngineBuilder\\AppConsole\\FacturasDaemon\\FacturasDaemon.sln",
+      "type": "sln",
+      "lastOpened": "2026-06-11T11:21:06.066Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d20d4626-d1e8-49d9-9822-e629b8e77120",
+      "name": "DocsToolsCompiled_Pandora",
+      "path": "E:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocsToolsCompiled_Pandora\\DocsToolsCompiled_Pandora.csproj",
+      "type": "sln",
+      "lastOpened": "2025-03-31T19:23:50.310Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7ad2d15a-6c62-4fc9-a112-2ab85d759a2e",
+      "name": "EscalamientoTester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\EscalamientoTester\\EscalamientoTester.sln",
+      "type": "sln",
+      "lastOpened": "2025-03-15T09:59:25.038Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1990187e-3f6c-48cf-886c-b1f819012a66",
+      "name": "DocsToolsCompiled_Katalapi",
+      "path": "E:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocsToolsCompiled-Katalapi\\DocsToolsCompiled_Katalapi.csproj",
+      "type": "sln",
+      "lastOpened": "2025-03-13T22:10:41.686Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "772f502b-7f7a-46e5-b527-577a2ea0263f",
+      "name": "H2SchedulerServiceWeb_V2",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2SchedulerServiceWeb-V2\\H2SchedulerServiceWeb_V2.sln",
+      "type": "sln",
+      "lastOpened": "2025-03-13T20:38:04.433Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9a49f5d3-ddea-46d6-a335-44cfc4c416c0",
+      "name": "EscalamientoBL_MT",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\EscalamientoBL_MT\\EscalamientoBL_MT.csproj",
+      "type": "sln",
+      "lastOpened": "2025-03-10T18:45:06.052Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7b5447cf-fe18-45e0-8d6e-7c679584cde6",
+      "name": "EscalamientoCL_MT",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\EscalamientoCL_MT\\EscalamientoCL_MT.csproj",
+      "type": "sln",
+      "lastOpened": "2025-03-10T18:44:53.283Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a29c72a2-5699-4f67-a1a5-83ea123b3165",
+      "name": "ConsoleApp1",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp1\\ConsoleApp1.sln",
+      "type": "sln",
+      "lastOpened": "2025-03-10T15:27:45.100Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5fafae95-0f72-40be-a52f-aef217160604",
+      "name": "ws_compiled",
+      "path": "E:\\Works\\Gonzalo\\WS Compiled\\ws_compiled.sln",
+      "type": "sln",
+      "lastOpened": "2025-03-10T09:56:53.492Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9e799014-8902-4b84-be09-a2a6d2d017fd",
+      "name": "CustomRulesDaemonV2",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\AppConsole\\CustomRulesDaemonV2.sln",
+      "type": "sln",
+      "lastOpened": "2025-03-07T14:28:27.335Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "80063e68-ab7e-4c58-945e-07920f8e0b00",
+      "name": "H2RCBUILDER",
+      "path": "C:\\Users\\cesar\\source\\repos\\Visual Studio Projects Claudio B\\Projects\\H2RCBUILDER\\H2RCBUILDER.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-21T14:26:55.768Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8f4828be-140a-4d64-81fd-97bfcc2df58a",
+      "name": "SLA_CL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\V2\\SLA\\Solicitudes\\SLA_CL\\SLA_CL.csproj",
+      "type": "sln",
+      "lastOpened": "2025-02-18T21:35:41.833Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e55ade9b-4837-4421-bd73-88475e8f95d5",
+      "name": "SLABusinessLayer",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\V2\\SLA\\Solicitudes\\SLABusinessLayer\\SLABusinessLayer.csproj",
+      "type": "sln",
+      "lastOpened": "2025-02-18T21:35:29.309Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b0c527de-3cc4-4b0e-a0fe-3773c2046f53",
+      "name": "MassiveChargeTesterStandAlone",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeTester\\MassiveChargeTesterStandAlone.sln",
+      "type": "sln",
+      "lastOpened": "2026-08-03T11:16:18.615Z",
+      "openCount": 108,
+      "pinned": false,
+      "tags": [
+        "cargamasiva",
+        "tester",
+        "massivecharge"
+      ]
+    },
+    {
+      "id": "4b8f4f1e-855c-4969-be18-1f9fd05205fb",
+      "name": "CustomRulesDaemonModule",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\AppConsole\\CustomRulesDaemonModule\\CustomRulesDaemonModule.csproj",
+      "type": "sln",
+      "lastOpened": "2025-01-27T18:31:07.254Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6156104a-f82c-4ce9-b5fc-40a175b2b519",
+      "name": "CustomRulesDaemon",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\AppConsole\\CustomRulesDaemon\\CustomRulesDaemon.csproj",
+      "type": "sln",
+      "lastOpened": "2025-01-27T18:30:36.816Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "67360f34-e113-414e-9096-1baa7d88362d",
+      "name": "ConsoleApp2",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\AppConsole\\ConsoleApp2\\ConsoleApp2.sln",
+      "type": "sln",
+      "lastOpened": "2025-01-27T18:29:22.604Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4be7dd13-0963-474a-99ba-8105dd28a77f",
+      "name": "ims_ws",
+      "path": "E:\\Works\\Gonzalo\\Flutter_Projects\\IMS Municipalidad\\crm_clienteV2_ims_2025_ws\\ims_ws.sln",
+      "type": "sln",
+      "lastOpened": "2025-01-27T12:45:17.617Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4a06fa15-c2a7-4bd9-bab3-5746943642b4",
+      "name": "ConsoleApp1",
+      "path": "C:\\Temp\\testeremail\\ConsoleApp1\\ConsoleApp1.sln",
+      "type": "sln",
+      "lastOpened": "2025-01-05T18:04:36.419Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ba6adc8b-3186-4df5-a2f2-f14b2f3972d6",
+      "name": "WhatsappModule",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\V2\\WhatsappModule\\WhatsappModule.csproj",
+      "type": "sln",
+      "lastOpened": "2025-01-05T17:35:55.915Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5b00f533-2eb3-41b9-a28d-94e2fdb7565e",
+      "name": "ConsoleApp1",
+      "path": "C:\\Temp\\testeremail\\ConsoleApp1\\ConsoleApp1.csproj",
+      "type": "sln",
+      "lastOpened": "2025-01-05T17:35:34.859Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "04885ba7-006b-4a5b-89c2-b1bdf2d5906d",
+      "name": "EventTower.Messages",
+      "path": "E:\\Works\\Gonzalo\\InboxAdapter\\message-bus\\EventTower.Messages\\EventTower.Messages.csproj",
+      "type": "sln",
+      "lastOpened": "2024-12-17T13:05:48.479Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1aba6ebf-f10f-4168-9eea-8dd4490da448",
+      "name": "EventTower",
+      "path": "E:\\Works\\Gonzalo\\InboxAdapter\\message-bus\\EventTower\\EventTower.csproj",
+      "type": "sln",
+      "lastOpened": "2024-12-17T13:05:36.714Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d8d798ca-b20c-4468-bc81-68e905cbb62a",
+      "name": "EventTower",
+      "path": "c:\\temp\\EventTower\\EventTower\\EventTower.sln",
+      "type": "sln",
+      "lastOpened": "2024-12-17T13:00:01.768Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fbe0683e-208a-471e-984a-f9343e145c8f",
+      "name": "DownloadAdjuntos",
+      "path": "E:\\Works\\Gonzalo\\DownloadAdjuntos",
+      "type": "folder",
+      "lastOpened": "2024-11-26T15:23:19.108Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8aaad0ee-dc4c-438b-a454-40ce8cfdcc5b",
+      "name": "WhatsappInterfacesDLL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\EmailInterfaces\\WhatsappInterfacesDLL\\WhatsappInterfacesDLL.csproj",
+      "type": "sln",
+      "lastOpened": "2024-11-22T14:12:56.514Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b76abadd-da23-46ce-8aa3-706eabc4c129",
+      "name": "CreateTicketFromGmailCore_Pandora_PGA",
+      "path": "E:\\Works\\Gonzalo\\entregas Paris\\CreateTicketFromGmailCore_Pandora\\CreateTicketFromGmailCore_Pandora_PGA\\CreateTicketFromGmailCore_Pandora_PGA.csproj",
+      "type": "sln",
+      "lastOpened": "2024-11-07T12:51:24.101Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "48970f42-21e0-425b-85cb-b97c56176649",
+      "name": "H2ImpersonateLibrary",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\H2ImpersonateLibrary\\H2ImpersonateLibrary.csproj",
+      "type": "sln",
+      "lastOpened": "2024-10-18T18:12:17.445Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "10ba7484-e9e4-44ba-98a1-b9c3145c2cce",
+      "name": "AstaraReclamosEmail_Tester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\AstaraReclamosEmail_Filler\\AstaraReclamosEmail_Tester.sln",
+      "type": "sln",
+      "lastOpened": "2024-10-17T17:06:13.716Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "969d3637-4912-409a-813a-aa2e115ceac3",
+      "name": "ws2",
+      "path": "E:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\ws2.sln",
+      "type": "sln",
+      "lastOpened": "2024-09-25T12:50:54.497Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fb3067e8-54b8-48bc-b2c9-649d59908098",
+      "name": "ExportExcelTesterStandAlone",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\ExportExcelTester\\ExportExcelTesterStandAlone.sln",
+      "type": "sln",
+      "lastOpened": "2024-08-30T14:41:54.171Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cf12d9e6-391d-4807-9d88-fe18b0ea80e0",
+      "name": "SIGM_SD.WS2",
+      "path": "E:\\Works\\Gonzalo\\CustomPP\\CRM1\\WS CRM1\\SIGM_SD.WS2.sln",
+      "type": "sln",
+      "lastOpened": "2024-08-27T17:26:45.423Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5e85ea95-18b0-4e49-aa83-b641748c8b50",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\CustomPP\\CRM1\\NewPP - VSCode\\NewPP\\ws",
+      "type": "folder",
+      "lastOpened": "2024-08-27T17:24:50.996Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0a443b4c-2691-4534-a255-12e0c6b5d34e",
+      "name": "AbacoH2",
+      "path": "E:\\Works\\Gonzalo\\AbacoH2\\AbacoH2.sln",
+      "type": "sln",
+      "lastOpened": "2024-08-02T21:35:13.698Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cb148dec-87eb-4a82-8fff-120f257ead62",
+      "name": "H2ImpersonateLibrary",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\H2ImpersonateLibrary\\H2ImpersonateLibrary.sln",
+      "type": "sln",
+      "lastOpened": "2024-08-02T17:09:55.650Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1885d5f1-c18e-4064-b74d-31e14a6a0706",
+      "name": "GenerateExcelGeneralCRM_MT",
+      "path": "E:\\Works\\Gonzalo\\Yinett\\GenerateExcelGeneralCRM_MT\\GenerateExcelGeneralCRM_MT.csproj",
+      "type": "sln",
+      "lastOpened": "2024-07-05T03:48:44.425Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4b692ab6-70d2-4b30-9231-9ee226db9b20",
+      "name": "SecureQueryStringValidation",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\SecureQueryStringValidation\\SecureQueryStringValidation.csproj",
+      "type": "sln",
+      "lastOpened": "2024-07-05T03:45:02.243Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b1dc8a70-a7d3-4b1c-9fbc-b5b55997ee59",
+      "name": "RuleRunnerCL",
+      "path": "E:\\Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\RuleRunnerCL\\RuleRunnerCL.csproj",
+      "type": "sln",
+      "lastOpened": "2024-07-01T22:26:59.853Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c1b504ae-5a66-4cea-bc49-e2743fade529",
+      "name": "Principal_ServerChartToolsMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\Principal\\ServerChartToolsMultiTarget\\Principal_ServerChartToolsMultiTarget.vbproj",
+      "type": "sln",
+      "lastOpened": "2024-07-01T21:49:11.760Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "14b8d899-a1b8-4db4-8d68-3f372230e73b",
+      "name": "UpdateStatusSolicitudesVencidasDLL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\Principal\\UpdateStatusSolicitudesVencidas\\UpdateStatusSolicitudesVencidasDLL\\UpdateStatusSolicitudesVencidasDLL.csproj",
+      "type": "sln",
+      "lastOpened": "2024-06-27T14:15:36.696Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "75cc5fc7-2567-41c9-abfa-ab3715482669",
+      "name": "ASignacionAutomaticaTicketsWebDLL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\Principal\\AsignacionAutomaticaTicketsWeb\\ASignacionAutomaticaTicketsWebDLL\\ASignacionAutomaticaTicketsWebDLL.csproj",
+      "type": "sln",
+      "lastOpened": "2024-06-27T14:15:13.981Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4fe17174-2c6d-4ce2-a1fe-89a383e01cf2",
+      "name": "EmailInterfacesDLL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\EmailInterfaces\\EmailInterfacesDLL\\EmailInterfacesDLL.csproj",
+      "type": "sln",
+      "lastOpened": "2026-03-25T17:49:52.397Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "77a0699a-598c-4207-8099-42792541ed12",
+      "name": "SQLGeneralsTokens",
+      "path": "E:\\Works\\Gonzalo\\SQLGeneralsTokens\\SQLGeneralsTokens.csproj",
+      "type": "sln",
+      "lastOpened": "2024-06-24T14:47:42.560Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "75e29650-4fa1-4659-a0a4-e3c710f3c111",
+      "name": "AppPlugins",
+      "path": "C:\\Temp\\AppPlugins\\AppPlugins.sln",
+      "type": "sln",
+      "lastOpened": "2024-06-12T20:42:27.692Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0d2e5b1d-d025-45ee-9779-063ea7edfdd7",
+      "name": "H2VaultMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\DataAccessLayerH2\\H2VaultMultiTarget\\H2VaultMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2026-03-30T12:04:13.785Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d4bbd75c-b002-4b3e-812a-56a89afaa1c9",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\EnviarEmail\\CRM Enviar Email\\ws",
+      "type": "folder",
+      "lastOpened": "2024-06-07T18:43:22.448Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3aa9d3dc-86ba-49d9-94fe-34c81f952821",
+      "name": "MassiveSendTester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveSendTester\\MassiveSendTester.csproj",
+      "type": "sln",
+      "lastOpened": "2024-05-17T10:36:11.972Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b5c2276f-048a-454b-a4bc-5c20bd8fa23c",
+      "name": "MassiveSendCL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveSendCL\\MassiveSendCL.csproj",
+      "type": "sln",
+      "lastOpened": "2024-05-17T10:35:58.031Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a186a5ed-1dff-409b-9ec2-031c437659d4",
+      "name": "MassiveSendCL_MongoDB_DL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveSendCL_MongoDB_DL\\MassiveSendCL_MongoDB_DL.csproj",
+      "type": "sln",
+      "lastOpened": "2024-05-17T10:35:43.637Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2b25516f-739d-4218-9c88-e9526d065910",
+      "name": "MassiveSendCL_BusinessLayerMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveSendCL_BusinessLayerMultiTarget\\MassiveSendCL_BusinessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2024-05-17T10:35:22.934Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "86c61e27-1664-4eae-a8fd-3be73f0d5518",
+      "name": "MassiveBICEOpAsignacion_TeamManager",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveBICEOpAsignacion_TeamManager\\MassiveBICEOpAsignacion_TeamManager.csproj",
+      "type": "sln",
+      "lastOpened": "2024-04-16T20:56:07.216Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1b7043a5-3a97-4725-b75d-2779a33ac9f8",
+      "name": "HubServiceInterfaces",
+      "path": "E:\\Works\\Gonzalo\\CRM2_Companion\\RealVersion\\HubServiceInterfaces\\HubServiceInterfaces.csproj",
+      "type": "sln",
+      "lastOpened": "2024-03-18T15:42:08.916Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8ee72923-8e42-40f6-8594-b7935385e836",
+      "name": "PandoraDLL_Multitarget",
+      "path": "E:\\Works\\Gonzalo\\PandoraDLL_MultiTarget\\Source\\Pandora%20DLL%20Multitarget\\PandoraDLL_Multitarget.sln",
+      "type": "sln",
+      "lastOpened": "2024-03-12T02:51:43.333Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "92424bd6-6f19-40e6-a067-f25f2ff636a5",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\PlantillasComunicacion\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2024-01-06T12:06:23.940Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8fa3ea7b-72a9-451f-b2d1-10e37df4d18b",
+      "name": "ExportExcelCL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\ExportExcelCL\\ExportExcelCL.csproj",
+      "type": "sln",
+      "lastOpened": "2024-01-03T10:09:12.586Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "68eef131-ab0d-4d32-b495-fb48d43f80ff",
+      "name": "H2LoggerMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2LoggerMultiTarget\\H2LoggerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2024-01-03T10:07:02.982Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1396e9d5-2611-4096-b01b-18b325034394",
+      "name": "BusinessLayerMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeCL_BusinessLayerMultiTarget\\BusinessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2024-01-03T08:55:38.997Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "130fa8af-5e47-4a33-aa86-8b32a3fdb341",
+      "name": "MassiveChargeCL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeCL\\MassiveChargeCL.csproj",
+      "type": "sln",
+      "lastOpened": "2024-01-03T08:55:13.127Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8eb0a104-9d19-4784-865e-7b69d1fc36c4",
+      "name": "FacturasDaemonModule",
+      "path": "E:\\Works\\Gonzalo\\NotificationsEngineBuilder\\AppConsole\\FacturasDaemonModule\\FacturasDaemonModule.csproj",
+      "type": "sln",
+      "lastOpened": "2024-01-03T08:51:09.008Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7606b4cf-0c56-4bd4-a63c-78e6e99b8dec",
+      "name": "NotificationDaemonModule",
+      "path": "E:\\Works\\Gonzalo\\NotificationsEngineBuilder\\AppConsole\\NotificationDaemonModule\\NotificationDaemonModule.csproj",
+      "type": "sln",
+      "lastOpened": "2024-01-03T08:50:43.359Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cd850a6c-05fd-483a-a98e-28611709dcd6",
+      "name": "SendEmailCLMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\SendEmailCLMultiTarget\\SendEmailCLMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2023-12-18T14:00:27.528Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "252967f2-8f7a-4302-b571-fe911c67b38b",
+      "name": "SendEmailCL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\SendEmailCL\\SendEmailCL.csproj",
+      "type": "sln",
+      "lastOpened": "2023-12-18T14:00:02.431Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d54c2560-2328-4c00-a4db-1632b34086e7",
+      "name": "H2EmailModule",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2EmailModule\\H2EmailModule.csproj",
+      "type": "sln",
+      "lastOpened": "2023-12-18T13:56:07.906Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8b50334f-d679-4450-a93e-d23adf14cc32",
+      "name": "ServerChartToolsMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\CRM1\\ServerChartToolsMultiTarget\\ServerChartToolsMultiTarget.vbproj",
+      "type": "sln",
+      "lastOpened": "2023-11-30T15:13:34.312Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "48d6c887-5373-4229-869d-bb24f1b9e008",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\FacturasEngineBuilder\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2026-06-26T15:13:08.884Z",
+      "openCount": 69,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d713cb75-4f2c-4bfd-9cdf-78f55c19f4d9",
+      "name": "new_crypt_2018",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Seguridad 2018\\NewCrypt\\new_crypt_2018\\new_crypt_2018.sln",
+      "type": "sln",
+      "lastOpened": "2021-06-23T22:11:30.021Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9f4a672b-d25f-4f7d-86ab-8a59f88c3536",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Listados\\GeneradorListados\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2021-08-02T14:58:14.183Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0bca216c-c6e7-47a7-b435-7da859750819",
+      "name": "Vender",
+      "path": "C:\\Works\\Gonzalo\\Entregas BECS\\Auditoria Seguridad 2021\\Vender",
+      "type": "folder",
+      "lastOpened": "2021-08-27T15:31:54.255Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f8dd4bff-8c3d-471a-977d-4adea68b032e",
+      "name": "GenerateExcelGeneralCRM_MT",
+      "path": "E:\\Works\\Gonzalo\\Yinett\\GenerateExcelGeneralCRM_MT\\GenerateExcelGeneralCRM_MT.sln",
+      "type": "sln",
+      "lastOpened": "2023-11-23T14:44:22.112Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ab32dcb8-8e53-42b7-8919-273893c9f9b1",
+      "name": "ws",
+      "path": "C:\\Works\\Gonzalo\\Documentos Dinamicos\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-05T16:07:36.872Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "13124f13-ae9e-4511-be6c-2c918e2e01bb",
+      "name": "GeneralExcelTester",
+      "path": "E:\\Works\\Gonzalo\\Yinett\\GeneralExcelTester\\GeneralExcelTester.csproj",
+      "type": "sln",
+      "lastOpened": "2023-11-23T14:44:40.347Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d5a9d9f5-9f72-478f-ab1c-d7237a58d304",
+      "name": "BlazorApp1",
+      "path": "c:\\temp\\blazor8\\BlazorApp1\\BlazorApp1.sln",
+      "type": "sln",
+      "lastOpened": "2023-11-15T15:45:58.106Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "632c4b83-593a-4d7d-a1a9-cf140d2f6548",
+      "name": "TestPLantilla",
+      "path": "E:\\Works\\Gonzalo\\PlantillasComunicacion\\ws\\TestPLantilla\\TestPLantilla.csproj",
+      "type": "sln",
+      "lastOpened": "2023-11-14T14:24:23.094Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "dde530be-4a77-4fad-8367-5b0bbad74ad0",
+      "name": "EnterpriseBot",
+      "path": "E:\\Works\\Gonzalo\\CRM_Bot\\EnterpriseBot\\EnterpriseBot.sln",
+      "type": "sln",
+      "lastOpened": "2023-11-06T12:54:47.882Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "484b901c-45d5-4153-91c4-e11928e6cf92",
+      "name": "MassiveChargeFEN",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeFEN\\MassiveChargeFEN.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-11T16:42:41.409Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d3b94ca0-4fa7-4854-ad35-39dcc87b3931",
+      "name": "H2SchedulerServiceWeb",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2SchedulerServiceWeb-V2\\H2SchedulerServiceWeb.csproj",
+      "type": "sln",
+      "lastOpened": "2023-10-09T10:28:17.264Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c8e52dea-d88b-4a54-926a-e51d59d426f4",
+      "name": "FacturasDiasAtrasoDiasPago_Daemon",
+      "path": "E:\\Works\\Gonzalo\\FacturasEngineBuilder\\AppConsole\\DiasAtrasoDiasPago\\FacturasDiasAtrasoDiasPago_Daemon\\FacturasDiasAtrasoDiasPago_Daemon.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-10T20:49:42.231Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "55b90bd5-513f-4cbd-802d-21fa211af6a8",
+      "name": "Planimetria2023",
+      "path": "E:\\Works\\Gonzalo\\Entregas Ascent\\Planimetria2023",
+      "type": "folder",
+      "lastOpened": "2026-07-30T15:39:34.300Z",
+      "openCount": 33,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a96523fc-4586-45f7-a8e2-40b571e38f6f",
+      "name": "ConsoleApp2",
+      "path": "E:\\Works\\Gonzalo\\NotificationsEngineBuilder\\AppConsole\\ConsoleApp2\\ConsoleApp2.sln",
+      "type": "sln",
+      "lastOpened": "2023-09-08T23:16:30.201Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7bc475a2-5b7a-468b-9884-63a0cc6940d4",
+      "name": "RuleRunnerTester",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\RuleRunnerTester.sln",
+      "type": "sln",
+      "lastOpened": "2021-08-05T14:56:17.696Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "be87366c-220b-49c4-8397-645da4510fb0",
+      "name": "ws_maps",
+      "path": "C:\\Works\\Gonzalo\\GoogleMapsCRM2\\Maps2021 Solicitudes Filtered\\ws\\ws_maps.sln",
+      "type": "sln",
+      "lastOpened": "2021-11-30T00:03:21.887Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2bc61cb7-efa7-404d-83e8-359d5b337c6e",
+      "name": "CRM2 20 agosto 2023",
+      "path": "E:\\Works\\Gonzalo\\Login CRM\\CRM2 20 agosto 2023",
+      "type": "folder",
+      "lastOpened": "2023-08-20T09:40:32.503Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b98f0479-278f-4d65-95b6-420f4412da8d",
+      "name": "ServerChartToolsMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\Principal\\ServerChartToolsMultiTarget\\ServerChartToolsMultiTarget.vbproj",
+      "type": "sln",
+      "lastOpened": "2023-08-14T12:32:10.171Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "899b2b7f-4371-4063-b1c7-38a7605bf209",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\NotificationsEngineBuilder\\ws",
+      "type": "folder",
+      "lastOpened": "2023-07-26T11:00:03.167Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e23f6ece-c4db-49c7-afa4-97aa617a0915",
+      "name": "AspNet.Identity.MySQL",
+      "path": "C:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\samples-master\\AspNet.Identity.MySQL\\AspNet.Identity.MySQL.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-20T15:47:43.535Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c3f86557-1edd-4058-bff7-12561034c4bf",
+      "name": "ExportExcelTesterStandAlone",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\ExportExcelTester\\ExportExcelTesterStandAlone.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-13T17:34:47.989Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cdd0e320-5a2d-4fc7-9cf8-3ba17bf478e5",
+      "name": "DocumentosDinamicos",
+      "path": "C:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocumentosDinamicos.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-20T14:18:15.522Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "639485bd-0eee-4781-a2ce-e1c4f1abd8b8",
+      "name": "new_crypt_2018",
+      "path": "C:\\Works\\Gonzalo\\Seguridad 2018\\NewCrypt\\new_crypt_2018\\new_crypt_2018.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-17T23:15:02.127Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d691b3ad-8848-48be-b4c7-fe03cd296317",
+      "name": "AstaraReclamosEmail",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\AstaraReclamosEmail\\AstaraReclamosEmail.csproj",
+      "type": "sln",
+      "lastOpened": "2023-07-07T15:49:19.889Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c741b90f-8092-4ed4-a6b6-965e92a1b332",
+      "name": "AstaraReclamosEmail_Tester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\AstaraReclamosEmail_Filler\\AstaraReclamosEmail_Tester.csproj",
+      "type": "sln",
+      "lastOpened": "2023-07-07T15:49:12.290Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "af6c9cba-d473-4cca-b2a5-8a66397cf62b",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Documentos Dinamicos\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2021-06-02T18:13:02.527Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4d14dc56-afea-450f-80d0-adb65ca1338d",
+      "name": "DocumentosDinamicos",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocumentosDinamicos.sln",
+      "type": "sln",
+      "lastOpened": "2021-08-05T20:42:49.004Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fedbee04-8c3d-480b-bb59-e02dea3eca3b",
+      "name": "ws.sln (2)",
+      "path": "E:\\Works\\Gonzalo\\Digital Sign\\ws.sln (2).sln",
+      "type": "sln",
+      "lastOpened": "2023-07-07T10:16:52.053Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e5047370-a790-40c3-8cbd-277ad38c51c7",
+      "name": "ConsoleApp27",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp27\\ConsoleApp27.sln",
+      "type": "sln",
+      "lastOpened": "2023-06-30T08:50:54.814Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d8364c99-1875-4e63-8def-1927e389b9ac",
+      "name": "Sol_IntegracionConversica",
+      "path": "C:\\Users\\cesar\\Downloads\\Integraciones_Proveedores\\Sol_IntegracionConversica.sln",
+      "type": "sln",
+      "lastOpened": "2023-06-16T12:51:46.771Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ec1c6624-dd3a-4b32-bf94-0d991e8fdf11",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Planimetria CRM2\\ws",
+      "type": "folder",
+      "lastOpened": "2023-06-12T13:13:01.130Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ea4988c8-4918-408e-8466-1f9483b4ded6",
+      "name": "SendEmailCL2Principal",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\SendEmailCL2Principal\\SendEmailCL2Principal.csproj",
+      "type": "sln",
+      "lastOpened": "2023-06-05T18:36:42.780Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "65c46fa2-1b7b-40e9-a1f4-cbce355baf6b",
+      "name": "Dealer_Online",
+      "path": "E:\\Works\\Gonzalo\\Entregas SKBERGE\\Dealer_Online\\Dealer_Online\\Dealer_Online.sln",
+      "type": "sln",
+      "lastOpened": "2023-06-05T13:07:04.950Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "dc3137a9-eb99-4a66-9ed4-413e0eb2d1fc",
+      "name": "CRM_Bot",
+      "path": "E:\\Works\\Gonzalo\\CRM_Bot\\CRM_Bot\\CRM_Bot.sln",
+      "type": "sln",
+      "lastOpened": "2023-05-30T16:43:25.489Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2f6ada09-bfcf-4368-b91a-8cc467e1df57",
+      "name": "Nito.AsyncEx",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\WebApp\\AsyncEx-master\\Nito.AsyncEx.sln",
+      "type": "sln",
+      "lastOpened": "2023-05-19T13:48:31.020Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5159f431-3b41-4667-8a25-5ff6d1fb99d2",
+      "name": "CleanDocx_FEN",
+      "path": "E:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\CleanDOCX_FEN\\CleanDocx_FEN\\CleanDocx_FEN.csproj",
+      "type": "sln",
+      "lastOpened": "2023-05-04T11:19:53.554Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "04d5d0f3-d737-428a-a10a-3623315696c1",
+      "name": "Html2Docx",
+      "path": "E:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\Html2Docx\\Html2Docx.csproj",
+      "type": "sln",
+      "lastOpened": "2023-05-04T09:00:06.143Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ef4a033e-dd4b-4edb-9320-706d33a00c33",
+      "name": "ConsoleApp26",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp26\\ConsoleApp26.sln",
+      "type": "sln",
+      "lastOpened": "2023-05-03T21:41:39.992Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "af538a77-815a-41c5-ac1b-6724066e8fe0",
+      "name": "DocsToolsCompiled",
+      "path": "E:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocsTools\\DocsToolsCompiled.csproj",
+      "type": "sln",
+      "lastOpened": "2023-04-26T15:07:51.504Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9b4d87a5-525f-47d2-bcd5-9280461b8a1d",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\PlantillasComunicacion\\ws",
+      "type": "folder",
+      "lastOpened": "2023-04-26T14:36:03.706Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6487d8aa-1d0e-47e3-91b3-f9faa840ce40",
+      "name": "fix 24 abril 2023 login",
+      "path": "E:\\Works\\Gonzalo\\entregas CRM1\\fix 24 abril 2023 login",
+      "type": "folder",
+      "lastOpened": "2023-04-24T08:10:03.649Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2f7201fd-cf5a-4e40-926b-dccc2bdc8c74",
+      "name": "ExcelDataReader",
+      "path": "E:\\Works\\Gonzalo\\ExcelReader\\ExcelDataReader-develop\\ExcelDataReader-develop\\src\\ExcelDataReader\\ExcelDataReader.csproj",
+      "type": "sln",
+      "lastOpened": "2023-04-16T23:43:21.068Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fa79039d-0e75-4fa8-939c-71a43acff9d6",
+      "name": "ExcelDataReader",
+      "path": "E:\\Works\\Gonzalo\\ExcelReader\\ExcelDataReader-develop\\ExcelDataReader-develop\\ExcelDataReader.sln",
+      "type": "sln",
+      "lastOpened": "2023-04-16T23:42:19.390Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ab5c947a-0d07-4ef0-ab1f-f4b2445ce2fa",
+      "name": "Updates",
+      "path": "E:\\Works\\Gonzalo\\Entregas Ascent\\1. fix login y exportar excel 13 abril 2023\\Updates",
+      "type": "folder",
+      "lastOpened": "2023-04-14T08:25:05.016Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fdd51633-047a-4f5f-a0da-07b1612357e7",
+      "name": "CreateTicketFromGmailCore_Pandora",
+      "path": "E:\\Works\\Gonzalo\\entregas Paris\\CreateTicketFromGmailCore_Pandora\\CreateTicketFromGmailCore_Pandora\\CreateTicketFromGmailCore_Pandora.csproj",
+      "type": "sln",
+      "lastOpened": "2023-04-04T09:36:11.245Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d594d7eb-994e-48f6-bd0e-12b2cde29dd7",
+      "name": "h2_http_module",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\httpmodule crm1\\h2_http_module\\h2_http_module\\h2_http_module.csproj",
+      "type": "sln",
+      "lastOpened": "2023-03-27T14:29:38.938Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "198d808f-c8e7-4908-b740-5632e9e4e2ed",
+      "name": "h2_http_module",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\httpmodule crm1\\h2_http_module\\h2_http_module.sln",
+      "type": "sln",
+      "lastOpened": "2023-03-27T14:22:58.103Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "06ed0eca-e2cb-45da-83a1-449802538bf7",
+      "name": "H2SchedulerServiceWeb - Principal",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2SchedulerServiceWeb\\H2SchedulerServiceWeb - Principal.csproj",
+      "type": "sln",
+      "lastOpened": "2023-03-20T17:34:52.487Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3b889e3e-8e0f-44ab-9cc2-24a29d33c1a4",
+      "name": "h2_http_module_skberge",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\httpmodule skberge_peru\\h2_http_module\\h2_http_module_skberge.sln",
+      "type": "sln",
+      "lastOpened": "2023-03-27T14:22:38.290Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "86502ba5-3735-4e67-9262-e3409d32e282",
+      "name": "PandoraIdentityClasico",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\WebApp\\PandoraIdentityClasico\\PandoraIdentityClasico.csproj",
+      "type": "sln",
+      "lastOpened": "2023-03-08T09:07:17.257Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "976c38e7-83d5-425b-a21e-6e9001b6d706",
+      "name": "PandoraIdentityCL",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\WebApp\\PandoraIdentityCL\\PandoraIdentityCL.csproj",
+      "type": "sln",
+      "lastOpened": "2023-03-08T09:07:04.389Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a5188707-cc34-44f4-b4d4-dec53006d1fa",
+      "name": "AspNet.Identity.MySQL",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\samples-master\\AspNet.Identity.MySQL\\AspNet.Identity.MySQL.sln",
+      "type": "sln",
+      "lastOpened": "2023-03-08T08:29:59.623Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f22c06e8-6ed5-4ccb-80fd-83ad2f680dc4",
+      "name": "MassiveChargeCL_Current",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeCL_Current\\MassiveChargeCL_Current.csproj",
+      "type": "sln",
+      "lastOpened": "2023-03-01T15:47:52.334Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9bb71d24-0b07-4d56-8ba2-9b4a168c3a72",
+      "name": "BusinessLayerMultiTarget_Current",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\BusinessLayerMultiTargetCurrent\\BusinessLayerMultiTarget_Current.csproj",
+      "type": "sln",
+      "lastOpened": "2023-03-01T15:47:41.299Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d05260f6-8d73-4268-8f6c-c9141dc6c438",
+      "name": "H2UsersOnlineCleaner",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2UsersOnlineCleaner\\H2UsersOnlineCleaner.csproj",
+      "type": "sln",
+      "lastOpened": "2026-04-21T14:45:09.648Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "abc91d31-d2db-4ef6-a43c-e4a894f95a80",
+      "name": "BusinessLayerMultiTargetCurrent",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\BusinessLayerMultiTargetCurrent\\BusinessLayerMultiTargetCurrent.csproj",
+      "type": "sln",
+      "lastOpened": "2023-03-01T15:20:39.567Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3c735359-2747-42be-b307-7c18c65fd4a2",
+      "name": "ConsoleApp25",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp25\\ConsoleApp25.sln",
+      "type": "sln",
+      "lastOpened": "2023-02-22T14:56:48.505Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7dd1b7d5-ab9f-4f9f-8ee8-d1f1c574bce5",
+      "name": "SKtoCRMIntegration",
+      "path": "E:\\Works\\Gonzalo\\SKToCRMIntegration\\SKtoCRMIntegration\\SKtoCRMIntegration.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-26T15:42:48.253Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2cd17bed-e5be-4445-a673-6c2245e73dab",
+      "name": "CustomCargaMasivaCRM",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\CustomCargaSolution\\CustomCargaMasivaCRM\\CustomCargaMasivaCRM.csproj",
+      "type": "sln",
+      "lastOpened": "2022-11-17T18:10:03.618Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f6eeaeaf-ad4e-4d36-bd41-034d5aa667a2",
+      "name": "CustomCargaCL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\CustomCargaSolution\\CustomCargaCL\\CustomCargaCL.csproj",
+      "type": "sln",
+      "lastOpened": "2022-11-17T18:09:56.774Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "98bcc9ee-dda8-41de-98dc-a6d579318c74",
+      "name": "CustomCargaBL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\CustomCargaSolution\\CustomCargaBL\\CustomCargaBL.csproj",
+      "type": "sln",
+      "lastOpened": "2022-11-17T18:09:49.890Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a8887897-3dcf-45ec-a48d-68d65e32aca6",
+      "name": "WebApplication4",
+      "path": "C:\\Users\\cesar\\source\\repos\\WebApplication4\\WebApplication4.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-17T01:47:56.343Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "eda25041-e429-4d4f-aa6f-4d03a0116db8",
+      "name": "wasmbrowser",
+      "path": "C:\\Temp\\wasmbrowser\\wasmbrowser.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-17T01:46:42.585Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c2c141b2-0228-46e0-b621-2bcbd8025996",
+      "name": "WebApplication5",
+      "path": "C:\\Users\\cesar\\source\\repos\\WebApplication5\\WebApplication5.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-17T01:46:18.828Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ce52bf33-5089-4556-a9da-d187678574e4",
+      "name": "ActualizarStockVFCAstara",
+      "path": "E:\\Works\\Gonzalo\\ActualizarStockVFCAstara\\ActualizarStockVFCAstara\\ActualizarStockVFCAstara.csproj",
+      "type": "sln",
+      "lastOpened": "2022-11-15T13:40:24.202Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4050c5ce-c869-4a3c-8fbc-4b2748999914",
+      "name": "RazorClassLibrary1",
+      "path": "C:\\Temp\\RazorClassLibrary1\\RazorClassLibrary1.csproj",
+      "type": "sln",
+      "lastOpened": "2022-11-15T02:05:53.960Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ec7b0ef1-69fe-4a5f-b5fb-ba616045c440",
+      "name": "wasmbrowser",
+      "path": "C:\\Temp\\wasmbrowser\\wasmbrowser.csproj",
+      "type": "sln",
+      "lastOpened": "2022-11-10T13:21:49.235Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5e0795ee-dc54-434e-be48-bf505c15d34b",
+      "name": "ActualizarStockVFCAstara",
+      "path": "E:\\Works\\Gonzalo\\ActualizarStockVFCAstara\\ActualizarStockVFCAstara\\ActualizarStockVFCAstara.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-14T21:06:40.751Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3c5cd141-c92d-4568-81d0-e7e7e1b89866",
+      "name": "ConsoleApp24",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp24\\ConsoleApp24.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-09T01:54:09.785Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2c623181-7fed-47f3-86e0-eabadddcbd73",
+      "name": "WebApiSK3",
+      "path": "C:\\Users\\cesar\\source\\repos\\WebApiSK3\\WebApiSK3.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-09T00:30:44.222Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e45f4ea6-5525-48f9-8ce9-4607b05b6df2",
+      "name": "ConsoleApp22",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp22\\ConsoleApp22.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-03T15:44:41.031Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c335d8c6-8e55-433c-82c7-1e12e12604be",
+      "name": "IO.Swagger",
+      "path": "C:\\Users\\cesar\\Downloads\\csharp-client-generated\\IO.Swagger.sln",
+      "type": "sln",
+      "lastOpened": "2022-11-04T17:41:55.576Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "bfcb9e1c-2ea8-4705-a47d-43142b3023e8",
+      "name": "newASP4",
+      "path": "E:\\Works\\Gonzalo\\Login CRM\\Login Ascent\\newASP4\\newASP4.sln",
+      "type": "sln",
+      "lastOpened": "2022-10-11T16:55:38.111Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b5194d7e-75e6-4baf-8cdc-460963786cda",
+      "name": "pandora",
+      "path": "C:\\Users\\cesar\\Downloads\\pandora",
+      "type": "folder",
+      "lastOpened": "2022-10-05T17:11:15.112Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "dfcf99d1-765f-4f02-9113-e3ca8eafed5f",
+      "name": "ConsoleApp20",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp20\\ConsoleApp20.sln",
+      "type": "sln",
+      "lastOpened": "2022-10-05T14:53:53.376Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1538fca6-acb9-4c89-9cd3-ffe5d2ade9ff",
+      "name": "SelectPDFTesting",
+      "path": "C:\\Users\\cesar\\source\\repos\\SelectPDFTesting\\SelectPDFTesting.sln",
+      "type": "sln",
+      "lastOpened": "2022-09-09T13:45:34.787Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9e65fea1-031d-4fb7-b50b-8d107f116000",
+      "name": "fix emitir certificado 9 septiembre 2022",
+      "path": "E:\\Works\\Gonzalo\\Entregas Ascent\\fix emitir certificado 9 septiembre 2022",
+      "type": "folder",
+      "lastOpened": "2022-09-09T13:26:15.967Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8fa60fda-0ba9-4a82-a7ff-bfc945dc110e",
+      "name": "AplicacionPrueba",
+      "path": "C:\\Users\\cesar\\Downloads\\SieteWSTestApp_sources\\AplicacionPrueba.sln",
+      "type": "sln",
+      "lastOpened": "2022-09-05T17:28:04.146Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "aa67fe24-8aac-401b-b5b1-060530858665",
+      "name": "010 junio 2019 skberge peru seguridad",
+      "path": "E:\\Works\\Gonzalo\\Entregas SKBERGE\\010 junio 2019 skberge peru seguridad",
+      "type": "folder",
+      "lastOpened": "2022-08-24T17:03:55.712Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fad1a0c4-4c89-4770-874f-7c4875991dc6",
+      "name": "ConsoleApp19",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp19\\ConsoleApp19.sln",
+      "type": "sln",
+      "lastOpened": "2022-08-24T00:57:09.526Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "48c14cd4-a7de-4e6b-b143-d1d2ffc4042f",
+      "name": "CreateTicketFromGmailCore",
+      "path": "E:\\Works\\Gonzalo\\entregas Paris\\CreateTicketFromGmailCore_Pandora\\CreateTicketFromGmailCore.sln",
+      "type": "sln",
+      "lastOpened": "2022-08-19T14:25:24.716Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6abf72c4-a920-4c8a-9170-4203eca03c98",
+      "name": "CreateTicketFromGmailCore",
+      "path": "E:\\Works\\Gonzalo\\entregas Paris\\CreateTicketFromGmailCore\\CreateTicketFromGmailCore.sln",
+      "type": "sln",
+      "lastOpened": "2022-08-19T14:05:18.264Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c26d730e-874e-4d4f-910d-fc78b35aee09",
+      "name": "ExportExcelFEN",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\ExportExcel_FEN\\ExportExcelFEN\\ExportExcelFEN.csproj",
+      "type": "sln",
+      "lastOpened": "2022-08-16T18:01:28.913Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "01f1192b-e1af-4d98-a222-f9dab0053dd9",
+      "name": "QRCode",
+      "path": "C:\\Users\\cesar\\source\\repos\\QRCode\\QRCode.sln",
+      "type": "sln",
+      "lastOpened": "2022-08-12T15:17:29.047Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1acb5e95-65a1-436a-99db-dab08434fe4b",
+      "name": "ExportExcelTester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\ExportExcelTester\\ExportExcelTester.csproj",
+      "type": "sln",
+      "lastOpened": "2022-08-09T19:16:12.551Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c8589e00-6924-41fb-897b-81f78fe6cf15",
+      "name": "Dealer_Online",
+      "path": "C:\\Works\\Gonzalo\\Entregas SKBERGE\\Dealer_Online\\Dealer_Online\\Dealer_Online.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-18T13:24:34.101Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f45e2ec7-ce7d-4c4d-9c51-7e4e08e66fcb",
+      "name": "GenerateExcelGeneralCRM",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\GenerateExcelGeneralCRM\\GenerateExcelGeneralCRM.csproj",
+      "type": "sln",
+      "lastOpened": "2022-07-13T15:24:57.195Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1c6bf801-0e68-46a3-b186-9b3ff285f491",
+      "name": "fix emitir certificado 4 abril 2022",
+      "path": "E:\\Works\\Gonzalo\\Entregas Ascent\\fix emitir certificado 4 abril 2022",
+      "type": "folder",
+      "lastOpened": "2022-06-24T15:16:45.681Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "06726b92-f2df-4de0-a844-da770cbf29a3",
+      "name": "TesterMail",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\EmailInterfaces\\TesterMail\\TesterMail.csproj",
+      "type": "sln",
+      "lastOpened": "2022-06-23T16:56:54.357Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7ec4247f-6fe8-43f9-83df-8fb72021ed9e",
+      "name": "PandoraDLL_Multitarget",
+      "path": "E:\\Works\\Gonzalo\\PandoraDLL_MultiTarget\\PandoraDLL_Multitarget\\PandoraDLL_Multitarget.sln",
+      "type": "sln",
+      "lastOpened": "2022-06-16T14:38:04.273Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "97909e91-dc32-4464-a46f-2fcec4013de8",
+      "name": "H2SchedulerServiceWeb",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\H2SchedulerServiceWeb\\H2SchedulerServiceWeb.csproj",
+      "type": "sln",
+      "lastOpened": "2022-06-10T15:35:52.479Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "918fa3b3-52e2-4f71-b59c-e10f5269ddb9",
+      "name": "Adjuntos",
+      "path": "E:\\Works\\Gonzalo\\Principal\\Adjuntos.sln",
+      "type": "sln",
+      "lastOpened": "2022-06-09T00:00:52.231Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "428c59ff-4518-4865-8711-86775711a3f6",
+      "name": "ws.sln (2)",
+      "path": "C:\\Works\\Gonzalo\\CargaMasiva\\Carga Masiva Current\\ws\\ws.sln (2).sln",
+      "type": "sln",
+      "lastOpened": "2021-10-26T20:08:00.900Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1c52a73c-82bb-4147-a56e-d7ae72520554",
+      "name": "SecureQueryStringValidation",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\SecureQueryStringValidation\\SecureQueryStringValidation.sln",
+      "type": "sln",
+      "lastOpened": "2026-01-28T21:39:04.080Z",
+      "openCount": 95,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "668e73ec-7d36-476b-a8e3-e922f2347bd0",
+      "name": "H2VaultCryptMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\DataAccessLayerH2\\H2VaultCryptMultiTarget\\H2VaultCryptMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2022-06-01T14:25:05.768Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b1508e4d-8f6e-44c6-9e7b-9e1de548b77b",
+      "name": "formulario viejo",
+      "path": "E:\\Works\\Gonzalo\\WS Compiled\\Documentos Migración Principal 2022\\formulario viejo",
+      "type": "folder",
+      "lastOpened": "2022-05-30T14:17:06.936Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a956fae9-c759-404c-a70d-f63bc72aff05",
+      "name": "ExportadorData",
+      "path": "E:\\Works\\Gonzalo\\Entregas Ascent\\GeneraDocumentoAscent 2022\\GeneraDocumentAscent\\ExportadorData.sln",
+      "type": "sln",
+      "lastOpened": "2022-05-25T14:26:20.210Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "afd44890-bd97-4c41-a03b-1deb23df43f6",
+      "name": "ConsoleApp18",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp18\\ConsoleApp18.sln",
+      "type": "sln",
+      "lastOpened": "2022-05-23T18:13:02.701Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6c768d7d-9b52-4eff-a866-7cbfe643946c",
+      "name": "SecureQueryStringValidation",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Seguridad 2018\\SecureQueryStringValidation\\SecureQueryStringValidation.sln",
+      "type": "sln",
+      "lastOpened": "2021-05-27T15:27:38.023Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "13f07bb5-d30a-4737-b7f6-e6ddcd783a8a",
+      "name": "ws",
+      "path": "C:\\Works\\Gonzalo\\Reglas Unificadas\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-01T01:33:08.620Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9bec15b5-ea20-4570-ae40-8988ba012fd4",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\PlantillasComunicacion\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-08-04T21:12:40.677Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "822b25e9-6eb4-4244-b42a-a26d8f42f669",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Reglas Unificadas\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-01-28T13:25:02.975Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "dea98cce-a3c3-4cb2-b481-d1ab20fbbd9f",
+      "name": "codebehind",
+      "path": "C:\\Temp\\ws\\codebehind",
+      "type": "folder",
+      "lastOpened": "2022-05-03T15:01:41.944Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7500bbf5-6deb-4ece-bd20-9ed0f3426457",
+      "name": "MailMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\SendEmailCLMultiTarget\\MailMultiTarget.sln",
+      "type": "sln",
+      "lastOpened": "2021-03-29T14:30:11.114Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b30a047d-1c25-4d89-b5cf-7ddc9e2e6b93",
+      "name": "EscalamientoTester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\EscalamientoTester\\EscalamientoTester.csproj",
+      "type": "sln",
+      "lastOpened": "2022-04-09T15:41:07.473Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0c691ba5-abac-4590-887a-1d521d723578",
+      "name": "ConsoleApp17",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp17\\ConsoleApp17.sln",
+      "type": "sln",
+      "lastOpened": "2022-04-07T18:16:07.260Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2be6527b-c8a7-45fb-ad84-97dccb69c570",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Digital Sign\\ws",
+      "type": "folder",
+      "lastOpened": "2022-03-28T20:25:19.409Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ab48ad31-f21b-47d1-bb9f-ba5507435a0e",
+      "name": "fix 26 febrero 2021 new_downloadfilepost",
+      "path": "E:\\Works\\Gonzalo\\entregas CRM1\\fix 26 febrero 2021 new_downloadfilepost",
+      "type": "folder",
+      "lastOpened": "2022-03-24T00:31:33.140Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "037508a9-6064-4dc0-8c96-2d745dd46133",
+      "name": "CRM2 2021",
+      "path": "E:\\Works\\Gonzalo\\Login CRM\\CRM2 2021",
+      "type": "folder",
+      "lastOpened": "2022-03-22T14:52:06.072Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a783fad6-c648-444b-84c4-567e07edfa4f",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Formularios\\Formulario Ucasal\\ws",
+      "type": "folder",
+      "lastOpened": "2022-03-21T12:59:02.671Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9799ce7b-af5f-483a-8ce1-ef01e74db7d8",
+      "name": "PandoraDLL_Multitarget",
+      "path": "E:\\Works\\Gonzalo\\PandoraDLL_MultiTarget\\PandoraDLL_Multitarget\\PandoraDLL_Multitarget.csproj",
+      "type": "sln",
+      "lastOpened": "2022-03-08T01:45:40.576Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ccf6e9e9-6e3f-4f03-8657-52367fca62d7",
+      "name": "MassiveBICE_OpAutoGestionTester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveBICE_OpAutoGestionTester\\MassiveBICE_OpAutoGestionTester.sln",
+      "type": "sln",
+      "lastOpened": "2022-03-07T12:04:25.032Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d8d96d90-ac68-45ff-a168-9a5916157be9",
+      "name": "newASP4",
+      "path": "E:\\Works\\Gonzalo\\Login CRM\\Sources Autokorp\\newASP4\\newASP4.sln",
+      "type": "sln",
+      "lastOpened": "2022-03-03T15:32:05.045Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3f7a78d3-a637-41de-8e67-7b892af6a4b1",
+      "name": "ConsoleApp16",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp16\\ConsoleApp16.sln",
+      "type": "sln",
+      "lastOpened": "2022-02-23T01:02:36.352Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9375448d-6f6a-42a8-ac98-9e16a7744027",
+      "name": "RenderChartTools",
+      "path": "E:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\RenderChartTools\\RenderChartTools.csproj",
+      "type": "sln",
+      "lastOpened": "2022-02-18T14:35:34.506Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e7b4037a-c7d9-4683-8793-ed2d2b4d6086",
+      "name": "MigratingDataToolConsole",
+      "path": "E:\\Works\\Gonzalo\\MigratingDataTool\\MigratingDataToolConsole\\MigratingDataToolConsole.sln",
+      "type": "sln",
+      "lastOpened": "2022-02-16T23:59:08.204Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "63d4944f-40bd-44e1-916d-a707c99ad7c6",
+      "name": "ConsoleApp1",
+      "path": "E:\\Works\\Gonzalo\\MigratingDataTool\\ConsoleApp1\\ConsoleApp1.sln",
+      "type": "sln",
+      "lastOpened": "2022-02-16T23:58:18.812Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c06d1530-b50e-4e5a-9d0a-f619e546f91a",
+      "name": "DataAccessLayerH2",
+      "path": "E:\\Works\\Gonzalo\\DataAccessLayerH2",
+      "type": "folder",
+      "lastOpened": "2022-02-15T01:09:29.663Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7d84e599-77be-4200-8fbf-239484b63220",
+      "name": "H2Logger",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\H2Logger",
+      "type": "folder",
+      "lastOpened": "2022-02-15T01:09:09.257Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "edc61dd0-bbf6-4ee7-9095-06dfab826c20",
+      "name": "Dashboard Asignacion",
+      "path": "E:\\Works\\Gonzalo\\BICE 2021\\Dashboard Asignacion\\Dashboard Asignacion.sln",
+      "type": "sln",
+      "lastOpened": "2022-02-10T17:06:37.262Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "70978df7-9293-4051-88dd-89565372ba95",
+      "name": "MassiveBICE_OpAutoGestionTester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveBICE_OpAutoGestionTester\\MassiveBICE_OpAutoGestionTester\\MassiveBICE_OpAutoGestionTester.sln",
+      "type": "sln",
+      "lastOpened": "2022-02-08T13:29:42.016Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5a4108d4-8e44-49c6-bf76-a52b98414b14",
+      "name": "H2Logger",
+      "path": "E:\\Works\\Gonzalo\\Seguridad 2018\\H2Logger\\H2Logger.csproj",
+      "type": "sln",
+      "lastOpened": "2022-02-01T11:42:05.472Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "be395b4b-71df-4338-9a95-89a1e951d908",
+      "name": "RuleRunnerTester",
+      "path": "C:\\Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\RuleRunnerTester.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-17T23:20:24.234Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ed093056-a26f-414b-84a2-fc7ff4c8949e",
+      "name": "H2RCBUILDER",
+      "path": "E:\\Works\\Gonzalo\\Visual Studio Projects Claudio B\\Projects\\H2RCBUILDER\\H2RCBUILDER.sln",
+      "type": "sln",
+      "lastOpened": "2022-01-24T12:12:26.917Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b03aa8ed-f0d1-4a45-b3f8-9b8fe429bf40",
+      "name": "AbacoH2",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\AbacoH2\\AbacoH2.sln",
+      "type": "sln",
+      "lastOpened": "2020-11-16T01:38:39.671Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "01ffa50d-81b8-452e-b392-41e9f309eb39",
+      "name": "H2Builder",
+      "path": "E:\\Works\\Gonzalo\\Visual Studio Projects Claudio B\\Projects\\H2RCBUILDER\\H2Builder\\H2Builder.csproj",
+      "type": "sln",
+      "lastOpened": "2022-01-11T13:31:35.151Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b65a00b8-271e-4df6-967e-fe083246debd",
+      "name": "SKtoCRMIntegration",
+      "path": "C:\\Users\\cesar\\source\\repos\\SKtoCRMIntegration\\SKtoCRMIntegration.sln",
+      "type": "sln",
+      "lastOpened": "2022-01-06T15:16:45.892Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a77e2b96-686a-4ee6-9ecf-22de64bcc944",
+      "name": "NewDownloadFilePost 2021",
+      "path": "E:\\Works\\Gonzalo\\NewDownloadFilePost 2021",
+      "type": "folder",
+      "lastOpened": "2021-12-30T13:52:27.093Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5d445f0b-05f9-4f64-b5ae-8fa61c6963c5",
+      "name": "ws",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2021-11-02T15:03:32.789Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5d0a67b1-a4f9-4afe-8d19-8d63d0026b33",
+      "name": "H2SchedulerService",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\H2SchedulerService\\H2SchedulerService.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-27T18:04:09.665Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7efa0360-e7f0-4784-9d61-d1a961de8a82",
+      "name": "MassiveOportunitiesAssignment_CL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveBICE_OpAssign\\MassiveOportunitiesAssignment_CL.csproj",
+      "type": "sln",
+      "lastOpened": "2021-12-24T11:37:42.238Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8b908567-e096-4ea7-93f2-f3c95b4ca730",
+      "name": "MassiveOportunitiesAssignment_BL",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveOportunitiesAssignment_BL\\MassiveOportunitiesAssignment_BL.csproj",
+      "type": "sln",
+      "lastOpened": "2021-12-24T11:36:48.955Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b271edb6-5420-4099-88d7-252b2770b152",
+      "name": "MassiveBiceOPTester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveBiceOPTester\\MassiveBiceOPTester.csproj",
+      "type": "sln",
+      "lastOpened": "2021-12-24T11:36:03.364Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "76ee910e-bea4-4025-9114-bc9c099b10f0",
+      "name": "UChileServerChartToolsMultiTarget",
+      "path": "E:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\UChile\\UChileServerChartToolsMultiTarget\\UChileServerChartToolsMultiTarget.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-12-23T16:52:20.769Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "44d01dda-bc3b-48a7-a3a8-9dd0515db479",
+      "name": "MassiveChargeTester",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeTester\\MassiveChargeTester.csproj",
+      "type": "sln",
+      "lastOpened": "2021-12-23T14:09:40.187Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "78d39fcd-0ae3-4638-94d5-569f19f54692",
+      "name": "ws",
+      "path": "C:\\Works\\Gonzalo\\Listados\\GeneradorListados\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-20T14:20:14.874Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9c997712-c923-48cf-a795-35a13a3e4ad3",
+      "name": "DataAccessLayer",
+      "path": "C:\\Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayer.sln",
+      "type": "sln",
+      "lastOpened": "2021-12-22T16:32:58.750Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4f03dfcb-e542-4ccb-b0a3-a72db91fe549",
+      "name": "Dashboard Asignacion",
+      "path": "E:\\Works\\Gonzalo\\BICE 2021\\Dashboard Asignacion",
+      "type": "folder",
+      "lastOpened": "2021-12-21T13:46:02.602Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a6a102d3-a623-47dc-8c18-bbbe3c1e7190",
+      "name": "UChileServerChartToolsMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\UChile\\UChileServerChartToolsMultiTarget\\UChileServerChartToolsMultiTarget.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-11-04T13:24:56.867Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6fabd65a-fd2a-4129-9fd1-b01be0cfacb5",
+      "name": "ServerChartToolsMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\CRM1\\ServerChartToolsMultiTarget\\ServerChartToolsMultiTarget.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-11-04T13:24:35.497Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c7069bb1-d88d-4fdc-b9ba-4773327cc9d7",
+      "name": "DataAccessLayerMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerMultiTarget\\DataAccessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-11-04T13:24:04.679Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6732f49c-2e64-4f7c-8bc7-f65af5304a7f",
+      "name": "DataAccessLayerCoreMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerCoreMultiTarget\\DataAccessLayerCoreMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-11-04T13:23:54.608Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1d44570a-2be9-436c-b659-03fcbf060efe",
+      "name": "ExportExcelBusinessLayerMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\ExportExcelBusinessLayerMultiTarget\\ExportExcelBusinessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-11-04T13:10:48.166Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3d74c231-a3bf-4bcf-bacb-680e3638d0b4",
+      "name": "ExportExcelCL",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\ExportExcelCL\\ExportExcelCL.csproj",
+      "type": "sln",
+      "lastOpened": "2021-11-04T13:10:27.139Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "bcfe9e58-9bb6-4717-adc0-ee4064b032b8",
+      "name": "ExportExcelTester",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\ExportExcelTester\\ExportExcelTester.csproj",
+      "type": "sln",
+      "lastOpened": "2021-11-04T13:10:01.705Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "198247be-3535-4fc9-853a-c34d3ae5814a",
+      "name": "20 octubre 2021 fix index",
+      "path": "C:\\Works\\Gonzalo\\entregas CRM1\\20 octubre 2021 fix index.aspx",
+      "type": "folder",
+      "lastOpened": "2021-10-20T16:00:40.467Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c905fb39-567a-46ab-92dd-9db6c04c526e",
+      "name": "DynamicProcessingMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\DynamicProcessingMultiTarget\\DynamicProcessingMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-10-14T16:34:41.683Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "52ebef63-eaf2-437d-bfc6-c1fa1d8495b9",
+      "name": "new_crypt_cl_2018_multitarget",
+      "path": "C:\\Works\\Gonzalo\\Seguridad 2018\\NewCrypt\\new_crypt_2018\\new_crypt_cl_2018_multitarget\\new_crypt_cl_2018_multitarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-10-14T03:21:57.149Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e28a3f0e-0142-41a0-bef5-ea22d159ec8f",
+      "name": "DocsToolsCompiled",
+      "path": "C:\\Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocsTools\\DocsToolsCompiled.csproj",
+      "type": "sln",
+      "lastOpened": "2021-10-14T03:20:57.606Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4fa0cbb7-efbc-4ab8-904e-aa723426c2c0",
+      "name": "UChile_CRM1_ServerToolsMT",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\UChile_CRM1\\ServerChartTools\\UChile_CRM1_ServerToolsMT\\UChile_CRM1_ServerToolsMT.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-10-14T01:59:29.770Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7b423c8f-05da-44f3-9810-19c1b68e6c95",
+      "name": "DynamicProcessing",
+      "path": "C:\\Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\DynamicProcessing\\DynamicProcessing.csproj",
+      "type": "sln",
+      "lastOpened": "2021-10-13T20:57:30.273Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "26e2def1-3fb4-43ae-916c-756e7df8291d",
+      "name": "ConsoleApp15",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp15\\ConsoleApp15.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-13T18:45:30.081Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d3f0e918-7143-4eea-93f3-17ca4e59225a",
+      "name": "borrar1",
+      "path": "C:\\Users\\cesar\\source\\repos\\borrar1\\borrar1.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-13T18:44:16.628Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7f10f0ac-3907-4ce5-ab02-5045b1f32a09",
+      "name": "UChile_CRM1_ServerChartToolsMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\UChile_CRM1\\ServerChartTools\\UChile_CRM1_ServerChartToolsMultiTarget\\UChile_CRM1_ServerChartToolsMultiTarget.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-10-11T15:14:15.944Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f31b1be9-46fa-4303-bfd4-6c1905133b16",
+      "name": "UChile_CRM1_ServerChartTools",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\UChile_CRM1\\ServerChartTools\\ServerChartTools\\UChile_CRM1_ServerChartTools.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-10-10T16:27:37.239Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b1a13e8c-5791-432d-ad43-a0660820d59b",
+      "name": "H2LoggerMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\H2LoggerMultiTarget\\H2LoggerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-10-08T16:00:19.440Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0d9d62d3-8727-49e6-80b0-fc59c16e6e29",
+      "name": "UChileServerChartTools",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\UChile\\ServerChartTools\\ServerChartTools\\UChileServerChartTools.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-10-08T15:59:37.800Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cbfdf43c-6ed6-4cc0-848a-de9920f49201",
+      "name": "MassiveChargeCL",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeCL\\MassiveChargeCL.csproj",
+      "type": "sln",
+      "lastOpened": "2021-10-08T15:59:05.610Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c225ceb8-bd37-468f-89d4-d6b37f550c3e",
+      "name": "BusinessLayerMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeCL_BusinessLayerMultiTarget\\BusinessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-10-08T15:58:52.304Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "45154e15-86da-49ec-973c-6626c62f9fee",
+      "name": "MassiveChargeFEN",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\MassiveChargeFEN\\MassiveChargeFEN.csproj",
+      "type": "sln",
+      "lastOpened": "2021-10-08T15:58:06.595Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "24fba92b-5a98-4705-a914-8df65e3a6a56",
+      "name": "ws_maps",
+      "path": "C:\\Works\\Gonzalo\\GoogleMapsCRM2\\Maps2021 Solicitudes\\ws\\ws_maps.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-05T00:54:53.422Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3d9415ee-8dbf-4af1-ad14-a5c9817b0906",
+      "name": "ServerChartToolsAll",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\ServerChartToolsAll.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-01T13:37:26.338Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4b808832-215a-41e6-b372-9586a3496271",
+      "name": "ServerChartTools",
+      "path": "C:\\Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\CRM1\\ServerChartTools\\ServerChartTools.sln",
+      "type": "sln",
+      "lastOpened": "2021-10-01T13:33:49.750Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "afefa54a-a29a-41c6-aea5-d99a8a99850c",
+      "name": "IntegracionCRMtoSK",
+      "path": "C:\\Users\\cesar\\Downloads\\ConsoleApp14\\ConsoleApp14\\IntegracionCRMtoSK.sln",
+      "type": "sln",
+      "lastOpened": "2021-09-28T20:57:54.065Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ddd5a592-0d4d-4cfd-8d43-6c885428b4b2",
+      "name": "ConsoleApp14",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp14\\ConsoleApp14.sln",
+      "type": "sln",
+      "lastOpened": "2021-09-28T02:56:39.420Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "549794d1-b165-47b0-babb-27e068854c0c",
+      "name": "27 sept 2021 index",
+      "path": "C:\\Works\\Gonzalo\\entregas CRM1\\27 sept 2021 index",
+      "type": "folder",
+      "lastOpened": "2021-09-27T15:31:57.903Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "52aeae9c-6426-469d-b555-084e427c97fe",
+      "name": "ConsoleApp13",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp13\\ConsoleApp13.sln",
+      "type": "sln",
+      "lastOpened": "2021-09-23T15:07:42.573Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e8057aa3-8fe2-40dd-b746-eb76e31a6d1d",
+      "name": "ws",
+      "path": "C:\\Works\\Gonzalo\\Formularios\\ws",
+      "type": "folder",
+      "lastOpened": "2021-09-22T14:26:18.749Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3a436b6e-af24-4887-b9d0-500a7e86e179",
+      "name": "ImportarDatosBICE",
+      "path": "C:\\Works\\Gonzalo\\Service Scheduler\\ImportarDatosBICE\\ImportarDatosBICE.csproj",
+      "type": "sln",
+      "lastOpened": "2021-09-13T16:46:54.809Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2744feea-731b-4d12-a096-31d947afb0fb",
+      "name": "Mapa 2021",
+      "path": "C:\\Works\\Gonzalo\\Entregas Ascent\\Mapa 2021",
+      "type": "folder",
+      "lastOpened": "2021-09-09T14:55:05.625Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f037583e-8f08-43ca-8498-50e0903f08ce",
+      "name": "RuleRunnerCL",
+      "path": "C:\\Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\RuleRunnerCL\\RuleRunnerCL.csproj",
+      "type": "sln",
+      "lastOpened": "2021-09-08T01:03:28.266Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f7a3e742-c339-4a31-9f49-07ecd9bc52b5",
+      "name": "ImportarResultadosBICE",
+      "path": "C:\\Users\\cesar\\Downloads\\ImportarResultadosBICE\\ImportarResultadosBICE\\ImportarResultadosBICE.sln",
+      "type": "sln",
+      "lastOpened": "2021-09-07T20:02:22.277Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1870d10d-02b9-4307-8ca4-fa5f24435a81",
+      "name": "Npgsql",
+      "path": "C:\\Users\\cesar\\source\\repos\\Npgsql\\Npgsql.sln",
+      "type": "sln",
+      "lastOpened": "2021-09-04T03:20:36.482Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f1f613c5-47d3-4bee-9276-1ae66d9a6469",
+      "name": "fix 2 septiembre 2021 detalle de contrato",
+      "path": "C:\\Works\\Gonzalo\\Entregas Ascent\\fix 2 septiembre 2021 detalle de contrato",
+      "type": "folder",
+      "lastOpened": "2021-09-02T22:27:48.977Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5f9f54e6-6d02-4577-9a59-4cf2f030df6d",
+      "name": "Tareas",
+      "path": "C:\\Works\\Gonzalo\\Entregas BECS\\Auditoria Seguridad 2021\\Tareas",
+      "type": "folder",
+      "lastOpened": "2021-08-27T15:39:32.444Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5b561210-d6f5-4b55-b9db-ea63ad01a834",
+      "name": "RestSharpTokenBearer",
+      "path": "C:\\Works\\Gonzalo\\Entregas SKBERGE\\Oauth Miguel 2021\\RestSharpTokenBearer\\RestSharpTokenBearer.sln",
+      "type": "sln",
+      "lastOpened": "2021-08-18T20:35:34.079Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8e73c56f-df10-499f-9dcb-e2e25bbdb9b7",
+      "name": "ws",
+      "path": "C:\\Works\\Gonzalo\\Listados\\GeneradorListados\\ws",
+      "type": "folder",
+      "lastOpened": "2021-08-12T20:38:33.717Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d235ee1c-6ee1-4fe5-8e03-55bac47bdaff",
+      "name": "PLanos agosto 2021",
+      "path": "C:\\Works\\Gonzalo\\Entregas Ascent\\Mapa 2021\\PLanos agosto 2021",
+      "type": "folder",
+      "lastOpened": "2021-08-09T18:41:02.227Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "95e4f3c2-6045-405b-bb02-878b077888ad",
+      "name": "H2SchedulerService",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\H2SchedulerService\\H2SchedulerService.sln",
+      "type": "sln",
+      "lastOpened": "2021-08-04T19:43:54.541Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f48576ff-fc2e-4e33-9a44-a71be7fa430f",
+      "name": "DataAccessLayer",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayer.sln",
+      "type": "sln",
+      "lastOpened": "2021-08-06T15:39:41.379Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "49a7c557-b4a4-459a-995c-075394050c60",
+      "name": "EnterpriseBot",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\CRM_Bot\\EnterpriseBot\\EnterpriseBot.sln",
+      "type": "sln",
+      "lastOpened": "2021-08-06T15:53:29.988Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "69fabb87-1ece-4601-aa04-8a585a209f17",
+      "name": "H2VaultMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\DataAccessLayerH2\\H2VaultMultiTarget\\H2VaultMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-08-06T16:15:56.715Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "20ac76a1-a1da-4082-bfc7-d702f53eba39",
+      "name": "H2VaultCryptMultiTarget",
+      "path": "C:\\Works\\Gonzalo\\DataAccessLayerH2\\H2VaultCryptMultiTarget\\H2VaultCryptMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-08-06T16:08:09.302Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "108f98f9-1a82-4f58-895c-caced52e0047",
+      "name": "testing_sql_generator_2018",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\sql_generator_2018\\testing_sql_generator_2018\\testing_sql_generator_2018.csproj",
+      "type": "sln",
+      "lastOpened": "2021-07-28T16:01:39.171Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9d5c0c87-b45a-49a7-8146-047659970d76",
+      "name": "AspNet.Identity.MySQL",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\samples-master\\AspNet.Identity.MySQL\\AspNet.Identity.MySQL.sln",
+      "type": "sln",
+      "lastOpened": "2021-07-19T16:20:07.754Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "226bbb05-a3e7-42ef-a7e9-eff16f4deebc",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Formularios\\formularios dinamicos 2021\\ws",
+      "type": "folder",
+      "lastOpened": "2021-07-19T13:09:30.517Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "bb9f9d4f-e067-416e-a6c6-96897bf9043c",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2021-07-13T19:13:01.529Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ae604290-899b-4f72-aa26-d88c2c2e4952",
+      "name": "Vender",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas BECS\\Auditoria Seguridad 2021\\Vender",
+      "type": "folder",
+      "lastOpened": "2021-07-01T02:41:58.903Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ccf257a6-0658-47bb-8aa2-5145a2ae94af",
+      "name": "AdministrarCartera",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas BECS\\Auditoria Seguridad 2021\\AdministrarCartera",
+      "type": "folder",
+      "lastOpened": "2021-07-01T02:34:10.943Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cc2fbb13-c88d-43aa-8a82-0867ca41ad83",
+      "name": "PagoBeneficio",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas BECS\\Auditoria Seguridad 2021\\PagoBeneficio",
+      "type": "folder",
+      "lastOpened": "2021-06-30T22:22:13.621Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5072c2de-5b7e-4d39-bcdd-7b248aaae44e",
+      "name": "ExportExcelTester",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\ExportExcelTester\\ExportExcelTester.csproj",
+      "type": "sln",
+      "lastOpened": "2021-06-21T21:04:21.011Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c1d4c4fc-eeb6-49b0-a14b-d1cbcc21516c",
+      "name": "ExportExcelCL",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\ExportExcelCL\\ExportExcelCL.csproj",
+      "type": "sln",
+      "lastOpened": "2021-06-21T21:03:59.070Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d85cb49f-1bad-4559-b506-842e81ea16a5",
+      "name": "ExportExcelBusinessLayerMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\ExportExcelBusinessLayerMultiTarget\\ExportExcelBusinessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-06-21T21:03:49.221Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2890adef-4277-47ff-a1ed-d908636748ec",
+      "name": "ServerChartToolsMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\CRM1\\ServerChartToolsMultiTarget\\ServerChartToolsMultiTarget.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-06-07T16:45:38.976Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b86b7184-37df-4522-835d-cbd27e8851ba",
+      "name": "FEN",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Listados\\FEN",
+      "type": "folder",
+      "lastOpened": "2021-06-05T19:35:44.888Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "26c49de9-f212-452d-b9f9-e6d41b240f64",
+      "name": "SecureQueryStringValidation",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Seguridad 2018\\SecureQueryStringValidation\\SecureQueryStringValidation.csproj",
+      "type": "sln",
+      "lastOpened": "2021-05-27T15:19:57.304Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4daed042-7912-4254-8241-a063c953450c",
+      "name": "ConsoleApp12",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp12\\ConsoleApp12.sln",
+      "type": "sln",
+      "lastOpened": "2021-05-21T02:23:24.787Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "224471f2-be26-4dec-bc9e-7ee01633ee95",
+      "name": "DataAccessLayerMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerMultiTarget\\DataAccessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-05-20T21:33:25.406Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "72d0188d-cd4f-4a1b-b804-b78c32654267",
+      "name": "fix 26 febrero 2021 new_downloadfilepost",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\entregas CRM1\\fix 26 febrero 2021 new_downloadfilepost",
+      "type": "folder",
+      "lastOpened": "2021-05-17T22:55:25.093Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "e49760a7-c068-461e-9512-6d0cda828fb1",
+      "name": "Soporte_h2center_com",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Soporte_h2center_com",
+      "type": "folder",
+      "lastOpened": "2021-05-03T16:16:39.660Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4c648258-2485-4248-9640-66582c38db50",
+      "name": "SimpleEncodeBase64",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas Ascent\\fix campos html en plataforma vieja 15 abril 2021\\SimpleEncodeBase64.sln",
+      "type": "sln",
+      "lastOpened": "2021-04-16T01:58:21.046Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "365761a4-c345-45ab-bc2c-6caac51e5423",
+      "name": "ConsoleApp1VB",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas Ascent\\fix campos html en plataforma vieja 15 abril 2021\\ConsoleApp1VB\\ConsoleApp1VB.vbproj",
+      "type": "sln",
+      "lastOpened": "2021-04-16T01:57:40.063Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9307981e-506f-40cf-b9f7-3efd2219b1b4",
+      "name": "SimpleEncodeBase64",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas Ascent\\fix campos html en plataforma vieja 15 abril 2021\\SimpleEncodeBase64\\SimpleEncodeBase64.csproj",
+      "type": "sln",
+      "lastOpened": "2021-04-16T01:56:14.292Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "454795b6-69d1-4105-9d01-50874ee5d441",
+      "name": "fix campos html en plataforma vieja 15 abril 2021",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas Ascent\\fix campos html en plataforma vieja 15 abril 2021",
+      "type": "folder",
+      "lastOpened": "2021-04-15T14:32:48.246Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f3c6d884-cd16-4420-b43b-5fde5c2d1558",
+      "name": "fix emitir certificado 14 abril 2021",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas Ascent\\fix emitir certificado 14 abril 2021",
+      "type": "folder",
+      "lastOpened": "2021-04-14T18:39:33.195Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c42fcf1b-6a5e-42c6-a74c-8681a58fbd48",
+      "name": "Mapa 2021",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas Ascent\\Mapa 2021",
+      "type": "folder",
+      "lastOpened": "2021-04-14T16:17:33.838Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2350a662-c6b2-40c9-9fc8-0839cbfc54f8",
+      "name": "H2ImpersonateLibrary",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\H2ImpersonateLibrary\\H2ImpersonateLibrary.csproj",
+      "type": "sln",
+      "lastOpened": "2021-04-12T03:17:26.914Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2289ced5-4971-4400-b79f-5d1db3f7a3eb",
+      "name": "Aws",
+      "path": "C:\\Users\\cesar\\source\\repos\\Aws\\Aws.sln",
+      "type": "sln",
+      "lastOpened": "2021-04-10T02:11:18.248Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "aa0f45de-4e24-4422-851d-2cb8d5e85220",
+      "name": "ConsoleApp1",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Migracion Urbanova 2021\\MigracionBaseDatosUrbanova2\\MigracionBaseDatosUrbanova\\ConsoleApp1\\ConsoleApp1.csproj",
+      "type": "sln",
+      "lastOpened": "2021-03-31T00:49:16.391Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ea26c944-a09c-4245-b2c3-15d38a0fe3cf",
+      "name": "DataAccessLayerCoreMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerCoreMultiTarget\\DataAccessLayerCoreMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-03-25T18:56:59.220Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0312e17b-29a1-4e31-b14e-e9e8f0e15a23",
+      "name": "MigracionBaseDatosUrbanova",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Migracion Urbanova 2021\\MigracionBaseDatosUrbanova2\\MigracionBaseDatosUrbanova\\MigracionBaseDatosUrbanova.sln",
+      "type": "sln",
+      "lastOpened": "2021-03-25T18:55:41.944Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0d92fc72-58d7-41dd-b986-59e02942e930",
+      "name": "EmailInterfacesDLL",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\EmailInterfaces\\EmailInterfacesDLL\\EmailInterfacesDLL.csproj",
+      "type": "sln",
+      "lastOpened": "2021-03-25T14:17:42.796Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fc440a5d-e77d-4403-b8dc-1cee69a670ba",
+      "name": "SendEmailCLMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\SendEmailCLMultiTarget\\SendEmailCLMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-03-25T14:16:35.320Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f7917d99-a52a-4c93-8b8c-f967cddc5e9f",
+      "name": "MigracionBaseDatosUrbanova",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Migracion Urbanova 2021\\MigracionBaseDatosUrbanova\\MigracionBaseDatosUrbanova\\MigracionBaseDatosUrbanova.sln",
+      "type": "sln",
+      "lastOpened": "2021-03-23T17:32:40.809Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fe13e349-ff5b-45ab-a03d-aec9672f9f51",
+      "name": "AmazonAWS",
+      "path": "C:\\Users\\cesar\\source\\repos\\AmazonAWS\\AmazonAWS.sln",
+      "type": "sln",
+      "lastOpened": "2021-03-22T19:30:25.668Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a332014c-caad-46ef-8987-9e0dee18bd7a",
+      "name": "soporte.h2center",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Flash alternatives\\soporte.h2center.com",
+      "type": "folder",
+      "lastOpened": "2021-03-16T15:47:37.518Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b45187b4-3118-4da5-a96d-610b46a63e9b",
+      "name": "asp",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Flash alternatives\\soporte.h2center.com\\asp",
+      "type": "folder",
+      "lastOpened": "2021-03-16T15:35:07.638Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f9d29c55-4eec-4472-bca1-327dbc008200",
+      "name": "Soporte_h2center_com",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Soporte_h2center_com",
+      "type": "folder",
+      "lastOpened": "2021-03-03T19:36:04.108Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c68682c3-4243-4f83-9de2-be035bd7acf5",
+      "name": "H2ImpersonateLibrary",
+      "path": "C:\\Users\\cesar\\Downloads\\Biblioteca para impersonar usuarios windows en Pandora\\H2ImpersonateLibrary.sln",
+      "type": "sln",
+      "lastOpened": "2021-03-01T05:23:15.405Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6cd4e163-f8da-4ea7-9faf-6b2edea4cd52",
+      "name": "H2ImpersonateLibrary",
+      "path": "C:\\Users\\cesar\\Downloads\\Biblioteca para impersonar usuarios windows en Pandora\\H2ImpersonateLibrary.csproj",
+      "type": "sln",
+      "lastOpened": "2021-03-01T05:21:58.154Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "76683b81-6c16-406c-b6eb-72efebb81c58",
+      "name": "ConsoleApp11",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp11\\ConsoleApp11.sln",
+      "type": "sln",
+      "lastOpened": "2021-02-18T20:28:24.016Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fd5d5d67-614d-4d1c-bf2d-3fdf7bd73656",
+      "name": "new_crypt_cl_2018_multitarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Seguridad 2018\\NewCrypt\\new_crypt_2018\\new_crypt_cl_2018_multitarget\\new_crypt_cl_2018_multitarget.csproj",
+      "type": "sln",
+      "lastOpened": "2021-02-16T01:20:10.874Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5294ddbe-3b52-45f9-a4d8-34a45ccd0ed7",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Formularios\\Formulario Contacto Escuela Europea de Negocios EEN\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2021-02-09T14:24:32.625Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "117c721d-454a-47a2-b55d-44e616f98459",
+      "name": "CreateTicketFromGmailCore",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\entregas Paris\\CreateTicketFromGmailCore\\CreateTicketFromGmailCore.sln",
+      "type": "sln",
+      "lastOpened": "2021-02-01T17:35:37.037Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "0dde9976-f459-40d1-b8de-cbaadc497b91",
+      "name": "ClassLibrary1",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Seguridad 2018\\Identity Provider Humano 2 2020\\H2ImpersonateLibrary\\ClassLibrary1.csproj",
+      "type": "sln",
+      "lastOpened": "2021-02-01T14:43:38.458Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7178d781-c395-48b7-ac11-c9856718deb0",
+      "name": "ConsoleApp10",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp10\\ConsoleApp10.csproj",
+      "type": "sln",
+      "lastOpened": "2021-01-29T02:18:03.080Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8b5a3692-b2c4-4982-a7d3-3266117852ca",
+      "name": "ConsoleApp10",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp10\\ConsoleApp10.sln",
+      "type": "sln",
+      "lastOpened": "2021-01-28T00:40:04.942Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ad05d66d-9c96-49c5-b25a-b124ed146140",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\CargaMasiva\\Carga Masiva Current\\ws",
+      "type": "folder",
+      "lastOpened": "2021-01-29T14:41:28.421Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "38e02bea-fd61-4370-9e2f-4df57903e379",
+      "name": "MassiveChargeCL",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\MassiveChargeCL\\MassiveChargeCL.csproj",
+      "type": "sln",
+      "lastOpened": "2020-12-28T14:13:05.909Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9579cfcc-1145-409a-ac5f-4bf370b33584",
+      "name": "BusinessLayerMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\MassiveChargeCL_BusinessLayerMultiTarget\\BusinessLayerMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2020-12-28T14:08:09.659Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c45932b0-1522-45ee-8898-c53d29dc26c5",
+      "name": "InsertJob",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\CargaMasiva\\InsertJob\\InsertJob\\InsertJob.sln",
+      "type": "sln",
+      "lastOpened": "2020-12-28T14:00:15.262Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a500ba2b-cedf-4adf-8ca6-4582406ce509",
+      "name": "newASP4",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Login CRM\\Sources Autokorp\\newASP4\\newASP4.sln",
+      "type": "sln",
+      "lastOpened": "2020-12-21T16:52:29.613Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7cbd17d8-3918-4bc7-9205-a790c8d3bb60",
+      "name": "newASP4",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Login CRM\\newASP4\\newASP4.sln",
+      "type": "sln",
+      "lastOpened": "2020-12-18T22:55:35.125Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9ec13364-4bc1-4004-b89e-7d61085bf432",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Formularios\\Formulario Contacto Humano2\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-12-16T20:13:21.800Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5b3a8db9-434a-4fde-9f34-8f66a5d9a35f",
+      "name": "ClassLibrary1",
+      "path": "C:\\Users\\cesar\\source\\repos\\ClassLibrary1\\ClassLibrary1.sln",
+      "type": "sln",
+      "lastOpened": "2020-11-10T19:27:03.500Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "72990996-2999-4914-9ee1-ef364067dec4",
+      "name": "DynamicProcessing",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\DynamicProcessing\\DynamicProcessing.csproj",
+      "type": "sln",
+      "lastOpened": "2020-11-10T15:54:30.336Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a43dd067-b881-411d-9b35-c970c3410d97",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generador Segmentos\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-11-09T14:02:38.640Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1ecbdf54-cd38-4b38-a458-ef4ef63407e0",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generador Segmentos\\ws",
+      "type": "folder",
+      "lastOpened": "2020-11-05T14:53:32.294Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "94f7c001-b357-48ed-aa8e-1b16b80b5fc7",
+      "name": "Agimex",
+      "path": "C:\\Users\\cesar\\source\\repos\\Agimex\\Agimex.sln",
+      "type": "sln",
+      "lastOpened": "2020-10-30T02:29:56.221Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7254d0f7-cf84-4994-aca7-12db16afe82b",
+      "name": "crm_cliente_flutter_ws",
+      "path": "C:\\Users\\cesar\\source\\repos\\crm_cliente_flutter_ws\\crm_cliente_flutter_ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-10-19T16:03:35.368Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "31c426f8-388e-4571-aa07-1372447c57b1",
+      "name": "crm_cliente_flutter_ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\crm_cliente_1 Flutter 2020\\crm_cliente_1\\crm_cliente_flutter_ws",
+      "type": "folder",
+      "lastOpened": "2020-10-18T00:47:11.422Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "44fb39af-ed8c-44bf-b0fa-15acd764b029",
+      "name": "HubServiceInterfaces",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\CRM2_Companion\\RealVersion\\HubServiceInterfaces\\HubServiceInterfaces.sln",
+      "type": "sln",
+      "lastOpened": "2020-10-15T16:43:47.809Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "73cc08a5-76f4-4fda-807c-842e319e5c45",
+      "name": "CRM2_Companion",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\CRM2_Companion\\RealVersion\\CRM2_Companion\\CRM2_Companion.sln",
+      "type": "sln",
+      "lastOpened": "2020-10-15T16:09:51.149Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4790c705-ad29-43ea-ab69-d2be353a41ba",
+      "name": "ConsoleApp9",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp9\\ConsoleApp9.sln",
+      "type": "sln",
+      "lastOpened": "2020-10-09T18:34:30.585Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c92cb58d-371e-4b49-bfa6-f2dcee98c4d3",
+      "name": "BlackListChecker_H2",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\BlackListChecker_H2\\BlackListChecker_H2\\BlackListChecker_H2.sln",
+      "type": "sln",
+      "lastOpened": "2020-10-08T20:27:28.526Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5270025c-5b7a-42b0-b720-074494b757dd",
+      "name": "H2VaultMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\H2VaultMultiTarget\\H2VaultMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2020-10-08T20:06:54.529Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7594c381-7dca-485c-822b-300ac4299b65",
+      "name": "H2VaultCryptMultiTarget",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\H2VaultCryptMultiTarget\\H2VaultCryptMultiTarget.csproj",
+      "type": "sln",
+      "lastOpened": "2020-10-08T19:37:18.379Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6d10d4ec-ac11-414b-8ed7-11c102bf2c50",
+      "name": "H2Vault",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\H2Vault\\H2Vault.csproj",
+      "type": "sln",
+      "lastOpened": "2020-10-08T19:36:57.204Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b20894a9-8229-49df-b4c6-e857b5feb117",
+      "name": "new_crypt_cl_2018",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Seguridad 2018\\NewCrypt\\new_crypt_2018\\new_crypt_cl_2018\\new_crypt_cl_2018.csproj",
+      "type": "sln",
+      "lastOpened": "2020-10-08T19:36:17.516Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "017d9fe8-5674-4d51-9b2b-ff262b1ed458",
+      "name": "ServerChartTools",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\CRM1\\ServerChartTools\\ServerChartTools\\ServerChartTools.vbproj",
+      "type": "sln",
+      "lastOpened": "2020-10-08T19:35:22.710Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4cbcac80-2ff6-4008-9806-16f7fbfa1d29",
+      "name": "H2Vault",
+      "path": "c:\\Temp\\offuscate\\H2Vault\\H2Vault.sln",
+      "type": "sln",
+      "lastOpened": "2020-10-01T15:01:10.597Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "31ffacac-244e-4a0f-8e80-569778c4eb3b",
+      "name": "ConsoleApp8",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp8\\ConsoleApp8.sln",
+      "type": "sln",
+      "lastOpened": "2020-09-29T14:26:10.654Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9bb847de-8f9f-4383-9998-0030549f6f61",
+      "name": "H2VaultCrypt",
+      "path": "c:\\temp\\offuscate\\H2VaultCrypt\\H2VaultCrypt.sln",
+      "type": "sln",
+      "lastOpened": "2020-09-28T16:41:40.179Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "16c6a70c-0fbf-47ae-91ab-d529003ff4fc",
+      "name": "Pandora",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Pandora DLL\\Pandora DLL\\Pandora.csproj",
+      "type": "sln",
+      "lastOpened": "2020-09-22T18:46:06.032Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "64ea255a-8f61-4c2e-935a-26a7a8e85936",
+      "name": "Pandora",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Pandora DLL\\Pandora DLL\\Pandora.sln",
+      "type": "sln",
+      "lastOpened": "2020-09-22T18:37:09.011Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cd6b7f70-a92c-4041-bc22-c739f3c93de8",
+      "name": "Pandora",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Pandora DLL\\Pandora%20DLL\\Pandora.sln",
+      "type": "sln",
+      "lastOpened": "2020-09-22T18:32:10.650Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "156f59a4-e51a-4fd4-9efa-b0f195cfe326",
+      "name": "cl1",
+      "path": "C:\\Users\\cesar\\source\\repos\\cl1\\cl1.sln",
+      "type": "sln",
+      "lastOpened": "2020-09-18T19:12:28.676Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5a961c5d-de45-47e6-8c1c-93c04f09923f",
+      "name": "17 septiembre 2020 login con coookie",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\entregas CRM1\\17 septiembre 2020 login con coookie",
+      "type": "folder",
+      "lastOpened": "2020-09-18T02:18:04.829Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "24e29e32-57a7-4bc6-b20f-55602e9fa0d7",
+      "name": "BusinessLayer",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\MassiveChargeCL_BusinessLayer\\BusinessLayer.csproj",
+      "type": "sln",
+      "lastOpened": "2020-09-08T15:53:14.925Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ab20f037-6f18-49ac-9256-a9eb79602109",
+      "name": "ConsoleApp7",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp7\\ConsoleApp7.sln",
+      "type": "sln",
+      "lastOpened": "2020-09-04T19:11:55.836Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a91ab5ec-80a3-433b-9880-a538db28345b",
+      "name": "DocsToolsCompiled_Pandora",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocsToolsCompiled_Pandora\\DocsToolsCompiled_Pandora.csproj",
+      "type": "sln",
+      "lastOpened": "2020-09-04T02:19:32.612Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9b44ef90-2fcb-4e7b-b842-74b1144d9ccc",
+      "name": "DataAccessLayer",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2 Framework 4.5\\DataAccessLayer.sln",
+      "type": "sln",
+      "lastOpened": "2020-09-03T18:43:26.157Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "910bbc40-2658-440b-9ddb-8cea7e016e32",
+      "name": "DataTesterNetStandard",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataTesterNetStandard\\DataTesterNetStandard.csproj",
+      "type": "sln",
+      "lastOpened": "2020-09-03T18:41:58.835Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fbe88dbd-dd07-4173-94c8-43002fada413",
+      "name": "DataTester",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataTester\\DataTester.csproj",
+      "type": "sln",
+      "lastOpened": "2020-09-03T18:41:50.485Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "80b9fc91-aa54-4f60-8e84-f5f3d356ce79",
+      "name": "DataAccessLayerNetStandard",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerNetStandard\\DataAccessLayerNetStandard.csproj",
+      "type": "sln",
+      "lastOpened": "2020-09-03T18:41:40.761Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "68690f22-48d8-40c6-a0f1-1d03807ffb9f",
+      "name": "DataAccessLayerCoreNetStandard",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerCoreNetStandard\\DataAccessLayerCoreNetStandard.csproj",
+      "type": "sln",
+      "lastOpened": "2020-09-03T18:41:28.582Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "da5c2531-1629-4181-9dc6-eb532031601e",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Documentos Dinamicos\\ws",
+      "type": "folder",
+      "lastOpened": "2020-09-03T18:18:02.925Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d23de255-809c-43c7-9171-6b3e03fe01bc",
+      "name": "DataAccessLayerCore",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerCore\\DataAccessLayerCore.csproj",
+      "type": "sln",
+      "lastOpened": "2020-08-28T17:31:18.424Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3de8c6c1-13b8-4730-b521-e627471b4362",
+      "name": "DataAccessLayer",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayer\\DataAccessLayer.csproj",
+      "type": "sln",
+      "lastOpened": "2020-08-28T17:29:35.248Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d0ce8a6e-ed41-4a36-b83d-ced519bbdad5",
+      "name": "ConsoleApp6",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp6\\ConsoleApp6.sln",
+      "type": "sln",
+      "lastOpened": "2020-08-27T22:58:46.790Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "90633166-dc7e-4910-8ed8-1517379dd82b",
+      "name": "EmailTesterFW4",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Service Scheduler\\EmailTesterFW4\\EmailTesterFW4.csproj",
+      "type": "sln",
+      "lastOpened": "2020-08-28T18:06:25.531Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f5541317-8343-4955-b2ff-ea34fe4f4cb7",
+      "name": "WS",
+      "path": "E:\\Users\\Chacal\\Private Works\\Alfonso\\6 julio 2018 PEL_DB_PruebaWeb\\WS\\WS.sln",
+      "type": "sln",
+      "lastOpened": "2020-01-31T02:23:32.995Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "19986df0-6b23-47ce-b3ec-258b6ef91c17",
+      "name": "fix  junio 2020 newdownloadfilepost",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\entregas CRM1\\fix  junio 2020 newdownloadfilepost",
+      "type": "folder",
+      "lastOpened": "2020-08-06T15:57:34.231Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "48fca2f4-0a76-48a9-8501-147702ec457e",
+      "name": "ConsoleApp5",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp5\\ConsoleApp5.sln",
+      "type": "sln",
+      "lastOpened": "2020-08-05T22:01:21.205Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "67fedb80-0454-49df-a9a9-33379da86507",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Formularios\\Formulario Contacto AB\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-07-22T15:16:45.210Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d195f777-de19-4f48-9efb-a7de10f889d3",
+      "name": "TLS",
+      "path": "C:\\Users\\cesar\\source\\repos\\ConsoleApp3\\TLS.sln",
+      "type": "sln",
+      "lastOpened": "2020-07-03T20:13:55.059Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "45fcf3de-7bc4-4f92-bbe1-6b6b99a4d107",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Formularios\\Formulario Contacto Escuela Europea de Negocios EEN\\ws",
+      "type": "folder",
+      "lastOpened": "2020-06-19T16:17:43.164Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8930dfd7-43c2-4274-a40f-e960f8060dbe",
+      "name": "GeneradorListados",
+      "path": "C:\\Users\\cesar\\source\\repos\\GeneradorListados\\GeneradorListados.sln",
+      "type": "sln",
+      "lastOpened": "2020-05-13T16:37:04.279Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "79861c83-4474-4752-b570-b53e527b120e",
+      "name": "DataAccessLayerCore",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2 NetStandard 2\\DataAccessLayerCore\\DataAccessLayerCore.csproj",
+      "type": "sln",
+      "lastOpened": "2020-05-01T16:26:49.482Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "a53c5446-62a6-4d6c-a2bf-b7a11255764e",
+      "name": "DataAccessLayer",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\DataAccessLayerH2 NetStandard 2\\DataAccessLayer\\DataAccessLayer.csproj",
+      "type": "sln",
+      "lastOpened": "2020-05-01T16:21:36.791Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "1c61dad2-c3fd-42cf-93c4-8326867c5577",
+      "name": "AspNet.Identity.MySQL",
+      "path": "C:\\Users\\cesar\\Downloads\\samples-master\\AspNet.Identity.MySQL\\AspNet.Identity.MySQL.sln",
+      "type": "sln",
+      "lastOpened": "2020-04-28T20:17:21.822Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "f60b676b-9b6d-46df-aa4d-0135bccfb70d",
+      "name": "22 abril 2020 https ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Entregas SKBERGE\\22 abril 2020 https ws",
+      "type": "folder",
+      "lastOpened": "2020-04-22T18:25:03.222Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ea57141c-7f6e-4954-9a44-2059faf20b6f",
+      "name": "SKBergeServerChartTools",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\SKBerge\\ServerChartTools\\ServerChartTools\\SKBergeServerChartTools.vbproj",
+      "type": "sln",
+      "lastOpened": "2020-04-03T15:09:57.813Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "4e800ca3-6a3e-4433-bace-234b325b3709",
+      "name": "UrbanovaServerChartTools",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\Urbanova\\ServerChartTools\\UrbanovaServerChartTools\\UrbanovaServerChartTools.vbproj",
+      "type": "sln",
+      "lastOpened": "2020-04-03T15:04:57.100Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2661c5c3-caff-4e78-a1e5-bcb01ff39bca",
+      "name": "UChileServerChartTools",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\UChile\\ServerChartTools\\ServerChartTools\\UChileServerChartTools.vbproj",
+      "type": "sln",
+      "lastOpened": "2020-04-03T15:04:22.806Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "81bdf274-c03d-44aa-b393-a2486bd33f71",
+      "name": "UChile_CRM1_ServerChartTools",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\Futures\\ChartTools\\UChile_CRM1\\ServerChartTools\\ServerChartTools\\UChile_CRM1_ServerChartTools.vbproj",
+      "type": "sln",
+      "lastOpened": "2020-04-03T15:03:55.232Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "bfe0d51c-ac14-46c1-8414-c76e738907b0",
+      "name": "RuleRunnerTester",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Reglas Unificadas\\Futures\\RuleRunner\\NET Framework 2.0\\RuleRunnerTester\\RuleRunnerTester.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-18T15:52:47.797Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "25bb460c-d27f-49fd-b169-05277065fb9d",
+      "name": "custom_fixed_charts",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\custom_fixed_charts",
+      "type": "folder",
+      "lastOpened": "2020-03-30T00:37:44.238Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "db50c8bc-b3bf-4c56-ac24-10ec50924168",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal\\Private Works\\Gonzalo\\Listados\\GeneradorListados\\ws",
+      "type": "folder",
+      "lastOpened": "2020-03-23T13:11:52.961Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "996484c4-25ff-477f-9886-f0bf62d1ae5e",
+      "name": "up-console",
+      "path": "C:\\Users\\cesar\\Downloads\\_NET_Core_Console_application_letting_users_sign_in_with_Username_password_to_call_Microsoft_Graph_A\\up-console.sln",
+      "type": "sln",
+      "lastOpened": "2020-03-18T14:41:54.682Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "912c2086-a121-4793-9d0b-4c2cd1adad2a",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Listados\\GeneradorListados\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-03-04T18:20:54.600Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "60b69f60-c2fe-4dbc-8124-56da6a570ef4",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\ws",
+      "type": "folder",
+      "lastOpened": "2020-03-09T13:44:33.380Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d3903555-0f8d-4b06-931f-182069eb40f0",
+      "name": "DocumentosDinamicos",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Documentos Dinamicos\\Futures\\DocumentosDinamicos\\DocumentosDinamicos.sln",
+      "type": "sln",
+      "lastOpened": "2020-03-09T13:46:07.868Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "10c5e066-e036-4f56-a644-6bb574fcb2b5",
+      "name": "fix horamesnuevo 6 marzo 2020",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\entregas CRM1\\fix horamesnuevo 6 marzo 2020",
+      "type": "folder",
+      "lastOpened": "2020-03-06T15:12:35.788Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ab53559f-cf9e-4eba-bab9-9063614a5e6a",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\ws\\core\\CRM1\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-03-05T20:50:24.190Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "5e38d20b-10f4-42c2-bc56-48831f57277b",
+      "name": "fix reporte horas por mes 4 marzo 2020",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\entregas CRM1\\fix reporte horas por mes 4 marzo 2020",
+      "type": "folder",
+      "lastOpened": "2020-03-04T13:03:00.004Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "036d8aae-4edd-4957-a507-3b42aebe3a33",
+      "name": "crm_ejecutivo_flutter_ws",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\CRM Movil flutter 2019\\crm_ejecutivo_flutter_ws\\crm_ejecutivo_flutter_ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-28T13:59:34.956Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9821ee92-6a8e-411e-8aab-297cda030339",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Documentos Dinamicos\\ws",
+      "type": "folder",
+      "lastOpened": "2020-02-27T18:22:16.370Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "137faff8-66a2-455f-8b8c-9a99f8136117",
+      "name": "ws",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Generator Unificado\\Generador de Graficos\\ws\\ws.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-24T20:06:12.869Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "050ee552-5520-4cd9-b89e-1b309d62a866",
+      "name": "BlazorAppServer",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Blazor Related 2020\\vs blazor\\BlazorAppServer\\BlazorAppServer.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-20T18:48:39.315Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3ec835c0-d707-4e0a-8fbe-55ffdc5599fd",
+      "name": "BlazorApp3",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Blazor Related 2020\\vs blazor\\BlazorApp3\\BlazorApp3.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-20T18:18:37.774Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "fc7467c6-39a3-4223-8498-1fd28d8c3d5a",
+      "name": "BlazorApp2",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Blazor Related 2020\\vs blazor\\BlazorApp2\\BlazorApp2.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-20T18:18:09.895Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "2e705a0a-38a0-4020-8e52-b42c0160bead",
+      "name": "BlazorApp1",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Blazor Related 2020\\vs blazor\\BlazorApp1\\BlazorApp1.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-20T14:37:30.402Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "13bbe3a5-ffd9-4407-be17-115adff7d5fe",
+      "name": "h2_http_module_skberge",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Seguridad 2018\\httpmodule skberge_peru\\h2_http_module\\h2_http_module_skberge.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-19T20:29:07.730Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d5fc6b59-ead4-4310-87a4-8a2c3389ef8e",
+      "name": "h2_http_module_skberge",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Seguridad 2018\\httpmodule skberge_peru\\h2_http_module\\h2_http_module\\h2_http_module_skberge.csproj",
+      "type": "sln",
+      "lastOpened": "2020-02-19T19:16:35.117Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "8b40963b-77d8-42a5-bcb9-dbb8b885af1c",
+      "name": "Pandora",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Pandora DLL\\Pandora.sln",
+      "type": "sln",
+      "lastOpened": "2020-02-01T16:08:51.383Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "969b6e68-1bad-46e0-b8d8-20f0f34f553a",
+      "name": "Pandora",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\Pandora DLL\\Pandora.csproj",
+      "type": "sln",
+      "lastOpened": "2020-02-01T16:07:01.505Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "602a2861-ce74-4878-95e8-b7b313e46727",
+      "name": "BlazorApp2",
+      "path": "C:\\Users\\cesar\\source\\repos\\BlazorApp2\\BlazorApp2.sln",
+      "type": "sln",
+      "lastOpened": "2020-01-29T18:06:23.725Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "c61eb49b-87b2-47cf-a6cc-50af97e849bd",
+      "name": "BlazorApp1",
+      "path": "C:\\Users\\cesar\\source\\repos\\BlazorApp1\\BlazorApp1.sln",
+      "type": "sln",
+      "lastOpened": "2020-01-29T18:02:27.736Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "003ff394-ee82-48ea-a036-313852776f27",
+      "name": "CreateTicketFromGmail",
+      "path": "E:\\Users\\Chacal_Online\\OneDrive\\Private Works\\Gonzalo\\entregas Paris\\CreateTicketFromGmail\\CreateTicketFromGmail.sln",
+      "type": "sln",
+      "lastOpened": "2020-01-28T18:35:47.146Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "cce3691b-b73d-4f93-babd-976ff6b66de2",
+      "name": "CustomRulesDaemonModuleV2.Tests",
+      "path": "E:\\Works\\Gonzalo\\CustomRulesEngineBuilder\\App\\CustomRulesDaemonModuleV2.Tests\\CustomRulesDaemonModuleV2.Tests.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-19T11:54:04.463Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "558287c6-fd98-40cf-84f2-8d56f32f5676",
+      "name": "CustomCargaMasivaFOJI-Runner",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\CustomCargaMasivaFOJI-Runner\\CustomCargaMasivaFOJI-Runner.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-24T11:07:56.642Z",
+      "openCount": 108,
+      "pinned": false,
+      "tags": [
+        "aval",
+        "foji",
+        "cargamasiva"
+      ]
+    },
+    {
+      "id": "471a2c64-2f95-4a88-abc8-48f1aade837c",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\CargaMasiva\\Carga Masiva Current\\ws",
+      "type": "folder",
+      "lastOpened": "2026-06-12T12:56:18.436Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "b754be03-6624-43d0-8de2-de0a93dcdd7c",
+      "name": "DiasAtrasoDiasPago_Module",
+      "path": "E:\\Works\\Gonzalo\\FacturasEngineBuilder\\AppConsole\\DiasAtrasoDiasPago\\DiasAtrasoDiasPago_Module\\DiasAtrasoDiasPago_Module.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-10T21:09:15.867Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "55783fc9-30cd-4095-b8db-22b901296efa",
+      "name": "ws_maps",
+      "path": "E:\\Works\\Gonzalo\\GoogleMapsCRM2\\Maps2021 Solicitudes Filtered\\ws\\ws_maps.sln",
+      "type": "sln",
+      "lastOpened": "2026-05-05T21:23:45.380Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "60f846b9-fbbb-4b16-9a26-ce33631cfec5",
+      "name": "ImportarDatosBICE",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\ImportarDatosBICE\\ImportarDatosBICE.csproj",
+      "type": "sln",
+      "lastOpened": "2026-04-21T14:51:38.277Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "6a1cf0c4-7c2c-4a79-90cc-833bf48b8f7b",
+      "name": "ResetAsignacionesDia_MassiveOPBICE",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\ResetAsignacionesDia_MassiveOPBICE\\ResetAsignacionesDia_MassiveOPBICE.csproj",
+      "type": "sln",
+      "lastOpened": "2026-04-21T13:39:41.385Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "ee1b2fe7-cc85-4bb8-aac1-baa4d08a8ed5",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Builder\\Mecano\\ws\\ws.slnx",
+      "type": "folder",
+      "lastOpened": "2026-04-14T13:52:55.566Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7ce9f826-0e1c-4dd4-9a84-e17aafcfa390",
+      "name": "CMF",
+      "path": "E:\\Works\\Gonzalo\\Principal\\Informe Diario CMF Proyecto REDEC\\CMF\\CMF.slnx",
+      "type": "folder",
+      "lastOpened": "2026-07-24T17:25:51.646Z",
+      "openCount": 106,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9ccf5f14-eb02-48f1-af92-df719b3a74c4",
+      "name": "DataAccessLayerAnalyzer",
+      "path": "E:\\Works\\Gonzalo\\DataAccessLayerH2\\DataAccessLayerAnalyzer\\DataAccessLayerAnalyzer.csproj",
+      "type": "sln",
+      "lastOpened": "2026-04-13T14:14:03.453Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "10c5141f-7dd8-4aad-9318-25aaa82c719f",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\Builder\\Mecano\\ws",
+      "type": "folder",
+      "lastOpened": "2026-03-25T13:20:42.643Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7112dec9-a98a-4e21-a87b-2ef081d6de32",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\CargaMasiva\\Carga Masiva Current 2026\\ws\\ws.slnx",
+      "type": "folder",
+      "lastOpened": "2025-07-24T16:31:17.989Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "d05fbc19-4daa-4337-a4f4-6862b70f7d14",
+      "name": "CPUBoostManager",
+      "path": "E:\\Works\\Gonzalo\\CPUBoostManager\\Console\\CPUBoostManager.sln",
+      "type": "sln",
+      "lastOpened": "2026-03-05T08:46:22.120Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "01ebdc97-509e-43a6-a59e-5a09b863333e",
+      "name": "PandoraDLL_Multitarget",
+      "path": "E:\\Works\\Gonzalo\\PandoraDLL_MultiTarget\\Source\\Pandora DLL Multitarget\\PandoraDLL_Multitarget.sln",
+      "type": "sln",
+      "lastOpened": "2026-02-13T13:35:38.344Z",
+      "openCount": 105,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "204fc619-b877-47f4-adc4-5149039d6508",
+      "name": "fix 12 enero 2026 mapas de unidades",
+      "path": "E:\\Works\\Gonzalo\\Entregas Ascent\\fix 12 enero 2026 mapas de unidades",
+      "type": "folder",
+      "lastOpened": "2026-01-12T17:57:07.832Z",
+      "openCount": 79,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "42ed34d1-c7ef-4ff2-bc3b-45a1ef0b32f2",
+      "name": "MSIScenarioTester",
+      "path": "E:\\Works\\Gonzalo\\CPUBoostManager\\WinForms\\MSIScenarioTester\\MSIScenarioTester.csproj",
+      "type": "sln",
+      "lastOpened": "2025-12-23T12:56:28.706Z",
+      "openCount": 49,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "596de8c1-648c-4bc8-b8bd-1b2a35db49ba",
+      "name": "ws",
+      "path": "E:\\Works\\Gonzalo\\CargaMasiva\\Carga Masiva Current 2026\\ws",
+      "type": "folder",
+      "lastOpened": "2025-12-08T12:03:03.357Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "71d46fb1-7378-48e6-861c-8548b23087d1",
+      "name": "CustomCargaMasivaFOJI",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\CustomCargaMasivaFOJI\\CustomCargaMasivaFOJI.csproj",
+      "type": "sln",
+      "lastOpened": "2026-06-24T11:07:07.169Z",
+      "openCount": 70,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "7d91e2b8-1fd6-431f-82b9-c5553e94d4b9",
+      "name": "MassiveCharge2026",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveCharge2026\\MassiveCharge2026.csproj",
+      "type": "sln",
+      "lastOpened": "2025-11-28T15:03:21.924Z",
+      "openCount": 24,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "9f81dd91-dfc2-46ce-9a88-cd0661479919",
+      "name": "MassiveSend",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\MassiveSend.sln",
+      "type": "sln",
+      "lastOpened": "2026-06-24T11:06:21.319Z",
+      "openCount": 50,
+      "pinned": false,
+      "tags": []
+    },
+    {
+      "id": "3ceb6c61-2a2a-4221-a1ab-adcccbd2399b",
+      "name": "CustomCargaMasivaFOJI-Runner",
+      "path": "E:\\Works\\Gonzalo\\Service Scheduler\\CustomCargaMasivaFOJI-Runner\\CustomCargaMasivaFOJI-Runner.slnx",
+      "type": "folder",
+      "lastOpened": "2026-07-14T11:18:35.063Z",
+      "openCount": 48,
+      "pinned": false,
+      "tags": []
+    }
+  ]
+}
